@@ -29,6 +29,7 @@
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
       "Description": "Description",
+      "DivisionId": "DivisionId",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
       "EndDate": "End Date",

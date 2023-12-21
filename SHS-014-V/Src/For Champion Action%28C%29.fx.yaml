@@ -1828,13 +1828,14 @@
                     ZIndex: =4
 
         Button1 As button:
-            OnSelect: |-
+            OnSelect: |
                 =SubmitForm(Form3);
                 If(Not(IsBlank(Form3.LastSubmit.ID)),updateinitiativeflow.Run(
                     Form3.LastSubmit.ID,
                     Gallery_study_2.Selected.'Study Name',
-                    Gallery_study_2.Selected.'Perf Year'
+                    Gallery_study_2.Selected.'Perf Year',Gallery_study_2.Selected.DivisionIdFromList
                 ));
+                UpdateContext({CeateInitiative:false});
             Text: ="Save"
             X: =546
             Y: =630
