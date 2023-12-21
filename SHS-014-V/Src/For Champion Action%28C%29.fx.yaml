@@ -974,7 +974,7 @@
 
             Gallery_study_3 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',Study=Gallery_study_2.Selected.'Study Name')
+                Items: =Filter('Initiative List',DivisionId=Gallery_study_2.Selected.DivisionIdFromList)
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -2516,7 +2516,8 @@
             ZIndex: =4
 
             Button1_4 As button:
-                OnSelect: =Remove('Initiative List',Gallery_study_3.Selected)
+                OnSelect: |-
+                    =Remove('Initiative List',Gallery_study_3.Selected);UpdateContext({DeleteInitiative:false})
                 Text: ="Delete"
                 Width: =100
                 X: =135
