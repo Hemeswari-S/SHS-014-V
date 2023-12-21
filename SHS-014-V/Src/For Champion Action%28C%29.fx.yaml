@@ -1830,12 +1830,13 @@
         Button1 As button:
             OnSelect: |
                 =SubmitForm(Form3);
-                If(Not(IsBlank(Form3.LastSubmit.ID)),updateinitiativeflow.Run(
+                updateinitiativeflow.Run(
                     Form3.LastSubmit.ID,
                     Gallery_study_2.Selected.'Study Name',
-                    Gallery_study_2.Selected.'Perf Year',Gallery_study_2.Selected.DivisionIdFromList
-                ));
-                UpdateContext({CeateInitiative:false});
+                    Gallery_study_2.Selected.'Perf Year',
+                    Gallery_study_2.Selected.DivisionIdFromList
+                );
+                UpdateContext({CeateInitiative: false});
             Text: ="Save"
             X: =546
             Y: =630
