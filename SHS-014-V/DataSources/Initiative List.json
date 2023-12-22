@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-10-30T18:14:01.3140000Z",
+      "LastChangedTimeString": "2023-12-18T19:22:13.0100000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -42,6 +42,11 @@
       "OData__ColorTag": "Color Tag",
       "PerfYear": "PerfYear",
       "Progress": "Progress",
+      "ResponceofAdmin": "Responce of Admin",
+      "ResponceOfApprover1": "ResponceOf Approver1",
+      "ResponceofApprover2": "Responce of Approver2",
+      "REsponceofApprover3": "REsponce of Approver3",
+      "ResponceofApprover4": "Responce of Approver4",
       "StartDate": "StartDate",
       "Study": "Study",
       "SubFactors": "SubFactors",
