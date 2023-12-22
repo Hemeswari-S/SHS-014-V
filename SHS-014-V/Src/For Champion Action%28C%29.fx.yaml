@@ -557,6 +557,16 @@
                     LayoutMinWidth: =255
                     ZIndex: =1
 
+                    Icon27 As icon.Reload:
+                        Color: =RGBA(45, 128, 40, 1)
+                        Height: =32
+                        Icon: =Icon.Reload
+                        OnSelect: =Refresh('Initiative List')
+                        Width: =36
+                        X: =273
+                        Y: =18
+                        ZIndex: =1
+
                 Container25_53 As groupContainer.manualLayoutContainer:
                     DropShadow: =DropShadow.None
                     FillPortions: =0

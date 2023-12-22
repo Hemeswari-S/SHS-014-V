@@ -165,6 +165,7 @@
                             Items: ='HACT Config'
                             OnChange: |-
                                 =UpdateContext({VarCrntYear:CrntYrDrpDn.SelectedText})
+                            PressedColor: =RGBA(0, 0, 0, 1)
                             ZIndex: =2
 
                         Label36_8 As label:
