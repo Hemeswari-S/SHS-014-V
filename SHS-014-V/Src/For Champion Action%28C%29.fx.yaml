@@ -1232,7 +1232,8 @@
             OnFailure: =
             OnSuccess: |
                 =ResetForm(Form3);
-                UpdateContext({CeateInitiative:false})
+                UpdateContext({CeateInitiative:false});
+                Refresh('Initiative List')
             Width: =Parent.Width
             ZIndex: =1
 
