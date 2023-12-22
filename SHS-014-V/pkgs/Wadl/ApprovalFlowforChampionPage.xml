@@ -1,5 +1,5 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="ApprovalFlow" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="Approval Flow" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="ApprovalFlowforChampionPage" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="ApprovalFlowforChampionPage" />
   <grammars>
     <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <string name="ManualTriggerInput_text_def" />
@@ -24,7 +24,7 @@
               <doc title="ArrayOfItems" />
             </param>
             <param style="plain" name="number" path="/number" type="xs:double" required="true">
-              <doc title="DivisionId" />
+              <doc title="DivisionWithStudyId" />
             </param>
           </representation>
         </request>
