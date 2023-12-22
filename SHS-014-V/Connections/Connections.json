@@ -308,7 +308,7 @@
       "0816c73f-b91e-40ad-8afe-9fc7483c6fc2",
       "197155f0-48d8-4c24-a51d-af656934a345",
       "1a8db192-6a41-419d-a6df-284483d5f5a4",
-      "de436b4e-5967-411f-bab9-d158a2ecc935"
+      "90edad29-d2a1-4a13-8b1c-36ebc91f2588"
     ],
     "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
   },
@@ -402,6 +402,34 @@
     "dependents": [],
     "id": "8ad7614c-6d33-4256-98d1-1befd0796ea7"
   },
+  "90edad29-d2a1-4a13-8b1c-36ebc91f2588": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "7e29481e-b884-403e-887f-eb1c90c8e8c6"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "7e29481e-b884-403e-887f-eb1c90c8e8c6"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "updateinitiativeflow"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+    },
+    "dependents": [],
+    "id": "90edad29-d2a1-4a13-8b1c-36ebc91f2588"
+  },
   "93f7b609-a372-4236-ac8b-9ae39f20e4de": {
     "appActions": [
       "Run"
@@ -468,34 +496,6 @@
       "93f7b609-a372-4236-ac8b-9ae39f20e4de"
     ],
     "id": "da177838-88fa-4a66-a120-227ac5e014a3"
-  },
-  "de436b4e-5967-411f-bab9-d158a2ecc935": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "5d7a2a4e-4d5a-4410-929c-b3c7a37fd91e"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "5d7a2a4e-4d5a-4410-929c-b3c7a37fd91e"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "updateinitiativeflow"
-    ],
-    "dependencies": {
-      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-    },
-    "dependents": [],
-    "id": "de436b4e-5967-411f-bab9-d158a2ecc935"
   },
   "eb79f49c-8ec2-44ed-af26-3ba686350466": {
     "appActions": [
