@@ -930,7 +930,7 @@
 
             Gallery_study_4 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',Progress="Admin Review",DivisionId=Gallery_study_7.Selected.DivisionIdFromList,Study=Gallery_study_7.Selected.'Study Name')
+                Items: =Filter('Initiative List','Current Pending'="approver1",DivisionId=Gallery_study_7.Selected.DivisionIdFromList,Study=Gallery_study_7.Selected.'Study Name')
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
