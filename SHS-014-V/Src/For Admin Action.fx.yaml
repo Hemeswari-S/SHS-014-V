@@ -1477,7 +1477,7 @@
                     StartYear: =1899
                     Tooltip: =Parent.DisplayName
                     Width: =(Parent.Width - 60) * 0.6
-                    X: =DataCardKey78_3.X + DataCardKey78_3.Width
+                    X: =392
                     Y: =10
                     ZIndex: =2
 

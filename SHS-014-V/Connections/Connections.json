@@ -199,6 +199,40 @@
     "dependents": [],
     "id": "28208845-47cb-4779-a99d-7c1daec3979f"
   },
+  "44218550-717f-4239-9a6d-5b2b5183335e": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
+          "value": "shared_sharepointonline"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "5d7a2a4e-4d5a-4410-929c-b3c7a37fd91e"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "5d7a2a4e-4d5a-4410-929c-b3c7a37fd91e"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "updateinitiativeflow"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+    },
+    "dependents": [],
+    "id": "44218550-717f-4239-9a6d-5b2b5183335e"
+  },
   "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read",
@@ -302,10 +336,9 @@
       "93f7b609-a372-4236-ac8b-9ae39f20e4de",
       "197155f0-48d8-4c24-a51d-af656934a345",
       "1a8db192-6a41-419d-a6df-284483d5f5a4",
-      "6ac7b6d9-029e-4a47-9101-a754643069db",
-      "c178c0d2-ebee-4ead-9399-f02cb8086114",
       "28208845-47cb-4779-a99d-7c1daec3979f",
-      "fc73bdb3-7681-4fdf-91a2-38b2e7ca29cd"
+      "fc73bdb3-7681-4fdf-91a2-38b2e7ca29cd",
+      "44218550-717f-4239-9a6d-5b2b5183335e"
     ],
     "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
   },
@@ -353,40 +386,6 @@
     },
     "dependents": [],
     "id": "618ce2ac-a069-44ce-b66b-9f6e7b9fc4dc"
-  },
-  "6ac7b6d9-029e-4a47-9101-a754643069db": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
-          "value": "shared_sharepointonline"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "46229d31-1c95-462f-8c10-7245494d410d"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_sharepointonline": {
-          "value": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "46229d31-1c95-462f-8c10-7245494d410d"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "CreateDivisionFlow"
-    ],
-    "dependencies": {
-      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-    },
-    "dependents": [],
-    "id": "6ac7b6d9-029e-4a47-9101-a754643069db"
   },
   "8ad7614c-6d33-4256-98d1-1befd0796ea7": {
     "appActions": [
@@ -477,40 +476,6 @@
     },
     "dependents": [],
     "id": "93f7b609-a372-4236-ac8b-9ae39f20e4de"
-  },
-  "c178c0d2-ebee-4ead-9399-f02cb8086114": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
-          "value": "shared_sharepointonline"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "7e29481e-b884-403e-887f-eb1c90c8e8c6"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_sharepointonline": {
-          "value": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "7e29481e-b884-403e-887f-eb1c90c8e8c6"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "updateinitiativeflow"
-    ],
-    "dependencies": {
-      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-    },
-    "dependents": [],
-    "id": "c178c0d2-ebee-4ead-9399-f02cb8086114"
   },
   "da177838-88fa-4a66-a120-227ac5e014a3": {
     "appActions": [],
