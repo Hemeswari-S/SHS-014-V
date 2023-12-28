@@ -353,7 +353,18 @@
 
             Gallery_study_2 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Divisions With Study',StartsWith('Study Name',search_study.Text)||StartsWith('Division Name',search_study.Text))
+                Items: |-
+                    =Filter(
+                        'Divisions With Study',
+                        Title = "Created",
+                        StartsWith(
+                            'Study Name',
+                            search_study.Text
+                        ) || StartsWith(
+                            'Division Name',
+                            search_study.Text
+                        )
+                    )
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
