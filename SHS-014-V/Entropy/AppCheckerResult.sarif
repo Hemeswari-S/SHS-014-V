@@ -16034,6 +16034,396 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Arrow2_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Arrow2_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Arrow2_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Arrow2_12.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Arrow2_12.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Arrow2_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.TextInput1_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.TextInput1_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.TextInput1_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_38.Icon28_34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_39.Container6_18.Icon16_18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_39.Container6_18.Icon16_18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_39.Container6_18.Icon16_18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_39.Container6_18.Icon16_18.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_39.Container6_18.Icon16_18.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.'Button&heading_13'.Container27_39.Container25_39.Container6_18.Icon16_18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Container32_10.Container33_52.Icon5_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Container32_10.Container33_52.Icon5_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Container32_10.Container33_52.Icon5_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Container32_10.Container33_52.Icon5_8.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Container32_10.Container33_52.Icon5_8.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Container32_10.Container33_52.Icon5_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.search_name"
                 }
               ],
@@ -17863,6 +18253,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14.X",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container14_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Items"
                 }
               ],
@@ -17876,6 +18356,156 @@
                 "member": "Items",
                 "module": "For Admin Action",
                 "type": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.X",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Y"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Y",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Y",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Height"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Height",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Height",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'Main-For Champion Action(C)_1'.Container30_14.Gallery_study_8"
               }
             }
           ],
