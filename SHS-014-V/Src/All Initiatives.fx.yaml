@@ -36,10 +36,10 @@
 
     "'Main-All Initiatives' As groupContainer.verticalAutoLayoutContainer":
         Fill: =Color.White
-        Height: =App.Height-'compForAdminAction'.ComHeaderHeight
+        Height: =App.Height-compForAdminAction.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =App.Width-'compAllInitiatives'.VarMenuWidth
+        Width: =App.Width-compAllInitiatives.VarMenuWidth
         X: =compAllInitiatives.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
         ZIndex: =5

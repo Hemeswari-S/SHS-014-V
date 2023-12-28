@@ -35,11 +35,11 @@
 
     "'Main-For Admin Action' As groupContainer.verticalAutoLayoutContainer":
         Fill: =Color.White
-        Height: =App.Height-'compForAdminAction'.ComHeaderHeight
+        Height: =App.Height-compForAdminAction.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Visible: =false
-        Width: =App.Width-'compForAdminAction'.VarMenuWidth
+        Width: =App.Width-compForAdminAction.VarMenuWidth
         X: =compForAdminAction.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
         ZIndex: =3
