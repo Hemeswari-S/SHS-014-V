@@ -15914,6 +15914,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Container32_9.Container33_47.Icon5_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Container32_9.Container33_47.Icon5_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Container32_9.Container33_47.Icon5_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Container32_9.Container33_47.Icon5_7.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Container32_9.Container33_47.Icon5_7.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Container32_9.Container33_47.Icon5_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.search_name"
                 }
               ],
@@ -16934,36 +17054,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Admin Action'.ShowActionpage"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.ShowActionpage",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ShowActionpage",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Y"
                 }
               ],
@@ -17037,36 +17127,6 @@
                 "member": "Height",
                 "module": "For Admin Action",
                 "type": "'For Admin Action'.Actionpage_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 12
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Admin Action'.Actionpage_1.'Button&heading_22'.Container26_40.Label28_1.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.Actionpage_1.'Button&heading_22'.Container26_40.Label28_1.Text",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.Actionpage_1.'Button&heading_22'.Container26_40.Label28_1"
               }
             }
           ],
@@ -17786,6 +17846,36 @@
                 "member": "Height",
                 "module": "Inbox",
                 "type": "Inbox.CanVasContainer_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7"
               }
             }
           ],
