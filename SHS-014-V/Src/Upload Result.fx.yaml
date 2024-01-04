@@ -150,7 +150,7 @@
                                         }
                                     )
                                 );
-                                Download(Exportflow.Run(JSON(CSVData),"Segment Name").file_link);
+                                Download(Exportflow.Run(JSON(CSVData),"Study _Result").file_link);
                                 Clear(CSVData);
                                 
                             PaddingLeft: =35
