@@ -1072,7 +1072,7 @@
                 Items: |-
                     =Filter(
                         'Divisions With Study',
-                        Title = "SendForApproval1",
+                        Title = "approver1",
                         StartsWith(
                             'Study Name',
                             search_study.Text
