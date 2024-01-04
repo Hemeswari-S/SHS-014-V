@@ -1,16 +1,14 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="ApprovalFlowforChampionPage" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="ApprovalFlowforChampionPage" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://asia-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="CreateDivisionFlow" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="CreateDivisionFlow" />
   <grammars>
-    <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
-      <string name="ManualTriggerInput_text_def" />
+    <jsonTypes targetNamespace="https://asia-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <number name="ManualTriggerInput_number_def" />
       <object name="ManualTriggerInput">
-        <property name="text" type="string" />
         <property name="number" type="number" />
       </object>
     </jsonTypes>
   </grammars>
-  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/logicflows">
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://asia-001.azure-apim.net/apim/logicflows">
     <resource path="/{connectionId}/triggers/manual/run">
       <param style="template" name="connectionId" type="xs:string" required="true" />
       <method siena:requiresAuthentication="true" name="POST" id="Run">
@@ -20,11 +18,8 @@
             <doc title="The api version" />
           </param>
           <representation mediaType="application/json">
-            <param style="plain" name="text" path="/text" type="xs:string" required="true">
-              <doc title="ArrayOfItems" />
-            </param>
             <param style="plain" name="number" path="/number" type="xs:double" required="true">
-              <doc title="DivisionWithStudyId" />
+              <doc title="ID_Study" />
             </param>
           </representation>
         </request>

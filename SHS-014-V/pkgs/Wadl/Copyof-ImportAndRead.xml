@@ -1,16 +1,23 @@
-<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://india-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="ApprovalFlowforAdminAction" xmlns="http://wadl.dev.java.net/2009/02">
-  <doc title="ApprovalFlowforAdminAction" />
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://asia-001.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="Copyof-ImportAndRead" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Copy of - ImportAnd Read" />
   <grammars>
-    <jsonTypes targetNamespace="https://india-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <jsonTypes targetNamespace="https://asia-001.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
       <string name="ManualTriggerInput_text_def" />
       <string name="ManualTriggerInput_text_1_def" />
+      <string name="ManualTriggerInput_file_def_name_def" />
+      <base64Binary name="ManualTriggerInput_file_def_contentBytes_def" />
+      <object name="ManualTriggerInput_file_def">
+        <property name="name" type="string" />
+        <property name="contentBytes" typeRef="ManualTriggerInput_file_def_contentBytes_def" />
+      </object>
       <object name="ManualTriggerInput">
         <property name="text" type="string" />
         <property name="text_1" type="string" />
+        <property name="file" typeRef="ManualTriggerInput_file_def" />
       </object>
     </jsonTypes>
   </grammars>
-  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://india-001.azure-apim.net/apim/logicflows">
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://asia-001.azure-apim.net/apim/logicflows">
     <resource path="/{connectionId}/triggers/manual/run">
       <param style="template" name="connectionId" type="xs:string" required="true" />
       <method siena:requiresAuthentication="true" name="POST" id="Run">
@@ -21,10 +28,13 @@
           </param>
           <representation mediaType="application/json">
             <param style="plain" name="text" path="/text" type="xs:string" required="true">
-              <doc title="ArrayOfItems" />
+              <doc title="StudyNameFor Folder" />
             </param>
             <param style="plain" name="text_1" path="/text_1" type="xs:string" required="true">
-              <doc title="Responce" />
+              <doc title="FileName" />
+            </param>
+            <param style="plain" name="file" path="/file" type="service:ManualTriggerInput_file_def">
+              <doc title="ExcelData" />
             </param>
           </representation>
         </request>

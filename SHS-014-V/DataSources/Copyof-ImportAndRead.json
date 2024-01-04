@@ -1,8 +1,8 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "f0367c7e-bf2a-4c3c-b2fd-6d8bcfe6167f",
-    "Name": "ApprovalFlowforChampionPage",
+    "FlowNameId": "c238e938-1549-4c56-9b63-6e542e816dde",
+    "Name": "Copyof-ImportAndRead",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
     "WorkflowEntityId": null
