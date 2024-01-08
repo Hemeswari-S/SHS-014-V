@@ -1934,7 +1934,7 @@
             ZIndex: =6
 
     RejectPopup As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(166, 215, 153, 1)
+        Fill: =RGBA(152, 208, 70, 1)
         Height: =557
         Visible: =rejectpopup
         Width: =1063
