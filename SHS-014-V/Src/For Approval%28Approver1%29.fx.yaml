@@ -737,7 +737,7 @@
                             RadiusBottomRight: =0
                             RadiusTopLeft: =0
                             RadiusTopRight: =0
-                            Text: ="Send For Approval"
+                            Text: ="Approve"
                             Width: =Parent.Width
                             ZIndex: =1
 
@@ -1202,7 +1202,7 @@
                             ZIndex: =3
 
     DisplayInitiative_2 As groupContainer.verticalAutoLayoutContainer:
-        Fill: =Color.Beige
+        Fill: =RGBA(255, 255, 0, 1)
         Height: =App.Height-compForAdminAction.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
@@ -1277,7 +1277,7 @@
                             RadiusBottomRight: =0
                             RadiusTopLeft: =0
                             RadiusTopRight: =0
-                            Text: ="Send For Approval"
+                            Text: ="Approve"
                             Width: =Parent.Width
                             ZIndex: =1
 
