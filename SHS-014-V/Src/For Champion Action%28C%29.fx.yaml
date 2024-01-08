@@ -3216,6 +3216,7 @@
     "'Send for Approval_popup' As groupContainer.manualLayoutContainer":
         Fill: =RGBA(166, 215, 153, 1)
         Height: =557
+        Visible: =SendforApproval
         Width: =1063
         X: =273
         Y: =176
