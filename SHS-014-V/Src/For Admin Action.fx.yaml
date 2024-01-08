@@ -1883,3 +1883,68 @@
             Y: =630
             ZIndex: =3
 
+    "'Send for Approval_popup_1' As groupContainer.manualLayoutContainer":
+        Fill: =RGBA(166, 215, 153, 1)
+        Height: =557
+        Width: =1063
+        X: =273
+        Y: =176
+        ZIndex: =6
+
+        Label37_1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =77
+            Size: =20
+            Text: ="Confirm Submission"
+            Width: =412
+            X: =4
+            Y: =18
+            ZIndex: =1
+
+        Label38_1 As label:
+            Height: =80
+            Size: =20
+            Text: ="Are you sure you want send '"&Gallery_study_3.Selected.Study&"' for Approval?"
+            Width: =779
+            X: =24
+            Y: =124
+            ZIndex: =2
+
+        Button5_2 As button:
+            Height: =57
+            OnSelect: |-
+                =
+                Clear(ValueofId);
+                ForAll(
+                    Filter(Gallery_study_3.AllItems,Checkbox2_1.Value=true),
+                    Collect(ValueofId,ThisRecord.ID)
+                );
+                ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,TextInput3_1.Text);
+                UpdateContext({SendforApproval:false}); Notify("The study is send for admin review successfully",NotificationType.Success)
+            Text: ="Confirm"
+            Width: =210
+            X: =832
+            Y: =462
+            ZIndex: =4
+
+        Button5_3 As button:
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =57
+            OnSelect: |-
+                =UpdateContext({SendforApproval:false})
+            Text: ="Cancel"
+            Width: =210
+            X: =519
+            Y: =462
+            ZIndex: =5
+
+        TextInput3_1 As text:
+            Default: =""
+            Height: =235
+            HintText: ="Add Comments (Optional)"
+            Size: =18
+            Width: =725
+            X: =44
+            Y: =181
+            ZIndex: =6
+
