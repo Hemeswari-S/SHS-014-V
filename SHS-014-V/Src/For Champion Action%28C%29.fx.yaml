@@ -3237,3 +3237,11 @@
             Y: =18
             ZIndex: =1
 
+        Label38 As label:
+            Height: =75
+            Text: ="Are you sure you want send "&Gallery_study_3.Selected.Study&" for Approval?"
+            Width: =652
+            X: =20
+            Y: =122
+            ZIndex: =2
+
