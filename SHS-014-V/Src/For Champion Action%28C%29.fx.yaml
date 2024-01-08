@@ -3217,7 +3217,7 @@
             Y: =630
             ZIndex: =3
 
-    CreateInitiative_1 As groupContainer.verticalAutoLayoutContainer:
+    "'Send for Approval_popup' As groupContainer.verticalAutoLayoutContainer":
         Fill: =Color.Beige
         Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
