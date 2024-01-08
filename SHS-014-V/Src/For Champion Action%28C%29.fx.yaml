@@ -3251,7 +3251,7 @@
                     Collect(ValueofId,ThisRecord.ID)
                 );
                 ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,TextInput3.Text);
-                UpdateContext({SendforApproval:false})
+                UpdateContext({SendforApproval:false}); Notify("The study is send for admin review successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
             X: =832
