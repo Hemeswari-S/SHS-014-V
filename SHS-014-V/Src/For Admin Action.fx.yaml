@@ -1926,7 +1926,7 @@
             Fill: =RGBA(255, 191, 0, 1)
             Height: =57
             OnSelect: |-
-                =UpdateContext({SendforApproval:false})
+                =UpdateContext({Sendforapprovaladmin:false})
             Text: ="Cancel"
             Width: =210
             X: =519
