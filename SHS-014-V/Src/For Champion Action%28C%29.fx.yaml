@@ -2770,7 +2770,6 @@
                     ZIndex: =1
 
                 DataCardValue74_2 As text:
-                    Align: =Align.Center
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
