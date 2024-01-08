@@ -2287,10 +2287,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/08/2024 12:21:42",
+  "HeaderLastSavedDateTimeUTC": "01/08/2024 12:32:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "197155f0-48d8-4c24-a51d-af656934a345": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/8299294134a942faaf987c417a76ed28-c654e3a3d748b697\"",
+    "1c0e0a77-b256-44d2-b6b8-169463f751b8": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/02F370A88CFA4BE38A3C6B8EF9ECCEAA-C654E3A3D748B697\"",
     "1c3d3e27-d252-45ca-909b-cfa41cc62a38": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/1ad113064013418d8217f15c43d80bb4-c654e3a3d748b697\"",
     "1de39bfa-d68f-4151-bb52-96dac49b9adc": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-3aa7ae27-3790-4204-8f7b-799b6ad86d5e\"",
     "4830deb5-8567-4efe-9763-821202109736": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/63f5bfa94d6245caa8252d393c14ac3b-c654e3a3d748b697\"",
@@ -2303,7 +2304,6 @@
     "b7dd4e9b-8894-45c1-8e04-ae5081b32d17": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/08ca7b6f47fb4b309fdc67199148d5c2-c654e3a3d748b697\"",
     "cff7444a-aa00-4d97-8827-0099e524acee": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/c238e93815494c569b636e542e816dde-c654e3a3d748b697\"",
     "d2bb8c68-f114-45ea-adc7-01eb766a1e47": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/d455ca3c483c4497a61e8ba785cde8f0-c654e3a3d748b697\"",
-    "de01ad3b-3fe1-42a2-8762-61aa8b9d7240": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/02f370a88cfa4be38a3c6b8ef9ecceaa-c654e3a3d748b697\"",
     "e720fb3b-2d24-48d8-980e-b925c37a3d46": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/ba845f6a212c401b9644f22ad10ecf2f-c654e3a3d748b697\"",
     "f67df919-d21e-4b22-9f76-b6799e41d045": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/7e29481e-b884-403e-887f-eb1c90c8e8c6\"",
     "fcdec451-9d00-48c3-a237-c8acbbcdf830": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/790210bf-ba4e-4ca8-a734-a42cdfa1023e\""
