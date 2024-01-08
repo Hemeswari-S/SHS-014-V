@@ -1,8 +1,75 @@
 "'For Admin Action' As screen":
 
+    RejectPopup As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(152, 208, 70, 1)
+        Height: =557
+        Visible: =rejectpopup
+        Width: =1063
+        X: =293
+        Y: =196
+        ZIndex: =1
+
+        Label37_2 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =77
+            Size: =20
+            Text: ="Confirm Submission"
+            Width: =412
+            X: =4
+            Y: =18
+            ZIndex: =1
+
+        Label38_2 As label:
+            Height: =80
+            Size: =20
+            Text: ="Are you sure you want to reject the initiatives of '"&Gallery_study_3.Selected.Study&"'?"
+            Width: =869
+            X: =44
+            Y: =95
+            ZIndex: =2
+
+        Button5_5 As button:
+            Height: =57
+            OnSelect: |-
+                =
+                Clear(ValueofIdS);
+                ForAll(
+                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
+                    Collect(ValueofIdS,ThisRecord.ID)
+                );
+                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID);
+                UpdateContext({rejectpopup:false}); Notify("The initiative is rejected successfully",NotificationType.Success)
+            Text: ="Confirm"
+            Width: =210
+            X: =832
+            Y: =462
+            ZIndex: =4
+
+        Button5_4 As button:
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =57
+            OnSelect: |-
+                =UpdateContext({rejectpopup:false})
+            Text: ="Cancel"
+            Width: =210
+            X: =519
+            Y: =462
+            ZIndex: =5
+
+        TextInput3_2 As text:
+            Default: =""
+            Height: =235
+            HintText: ="Add Comments (Optional)"
+            Size: =18
+            Width: =725
+            X: =44
+            Y: =181
+            ZIndex: =6
+
     compForAdminAction As Component1:
         CurrentScreen: ="Inbox"
         Height: =768
+        ZIndex: =2
 
     Container14_8 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
@@ -15,7 +82,7 @@
         Width: =App.Width-compForAdminAction.VarMenuWidth
         X: =compForAdminAction.VarMenuWidth
         Y: =231
-        ZIndex: =2
+        ZIndex: =3
 
         Image8_13 As image:
             Height: =200
@@ -41,7 +108,7 @@
         Width: =App.Width-compForAdminAction.VarMenuWidth
         X: =compForAdminAction.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
-        ZIndex: =3
+        ZIndex: =4
 
         "'Button&heading_14' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -453,7 +520,7 @@
         Width: =App.Width-compForAdminAction.VarMenuWidth
         X: =compForAdminAction.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
-        ZIndex: =4
+        ZIndex: =5
 
         "'Button&heading_21' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -1133,7 +1200,7 @@
         Width: =App.Width-compForAdminAction.VarMenuWidth
         X: =compForAdminAction.VarMenuWidth
         Y: =compForAdminAction.ComHeaderHeight
-        ZIndex: =5
+        ZIndex: =6
 
         "'Button&heading_24' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -1867,7 +1934,7 @@
         Width: =1063
         X: =273
         Y: =176
-        ZIndex: =6
+        ZIndex: =7
 
         Label37_1 As label:
             FontWeight: =FontWeight.Bold
@@ -1917,72 +1984,6 @@
             ZIndex: =5
 
         TextInput3_1 As text:
-            Default: =""
-            Height: =235
-            HintText: ="Add Comments (Optional)"
-            Size: =18
-            Width: =725
-            X: =44
-            Y: =181
-            ZIndex: =6
-
-    RejectPopup As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(152, 208, 70, 1)
-        Height: =557
-        Visible: =rejectpopup
-        Width: =1063
-        X: =293
-        Y: =196
-        ZIndex: =7
-
-        Label37_2 As label:
-            FontWeight: =FontWeight.Bold
-            Height: =77
-            Size: =20
-            Text: ="Confirm Submission"
-            Width: =412
-            X: =4
-            Y: =18
-            ZIndex: =1
-
-        Label38_2 As label:
-            Height: =80
-            Size: =20
-            Text: ="Are you sure you want to reject the initiatives of '"&Gallery_study_3.Selected.Study&"'?"
-            Width: =869
-            X: =44
-            Y: =95
-            ZIndex: =2
-
-        Button5_5 As button:
-            Height: =57
-            OnSelect: |-
-                =
-                Clear(ValueofIdS);
-                ForAll(
-                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                    Collect(ValueofIdS,ThisRecord.ID)
-                );
-                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID);
-                UpdateContext({rejectpopup:false}); Notify("The initiative is rejected successfully",NotificationType.Success)
-            Text: ="Confirm"
-            Width: =210
-            X: =832
-            Y: =462
-            ZIndex: =4
-
-        Button5_4 As button:
-            Fill: =RGBA(255, 191, 0, 1)
-            Height: =57
-            OnSelect: |-
-                =UpdateContext({rejectpopup:false})
-            Text: ="Cancel"
-            Width: =210
-            X: =519
-            Y: =462
-            ZIndex: =5
-
-        TextInput3_2 As text:
             Default: =""
             Height: =235
             HintText: ="Add Comments (Optional)"
