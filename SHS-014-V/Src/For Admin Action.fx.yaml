@@ -1133,15 +1133,15 @@
 
     DisplayInitiative_1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =Color.Beige
-        Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
+        Height: =App.Height-compForAdminAction.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =10
         LayoutMode: =LayoutMode.Auto
         Visible: =DisplayInitiative
-        Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
-        X: ='compForChampionAction(C)'.VarMenuWidth
-        Y: ='compForChampionAction(C)'.ComHeaderHeight
+        Width: =App.Width-compForAdminAction.VarMenuWidth
+        X: =compForAdminAction.VarMenuWidth
+        Y: =compForAdminAction.ComHeaderHeight
         ZIndex: =5
 
         "'Button&heading_24' As groupContainer.verticalAutoLayoutContainer":
