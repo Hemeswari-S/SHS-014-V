@@ -1299,15 +1299,7 @@
                             DisabledFill: =Self.Fill
                             Fill: =RGBA(255, 0, 0, 1)
                             HoverFill: =Self.Fill
-                            OnSelect: |-
-                                =ClearCollect(
-                                    ValueofIdS,
-                                    Gallery_study_4.Selected.ID
-                                );
-                                ApprovalFlowforAdminAction.Run(
-                                    JSON(ValueofIdS),
-                                    "Rejected",Gallery_study_7.Selected.ID
-                                )
+                            OnSelect: =//ClearCollect(ValueofIdS,Gallery_study_4.Selected.ID);ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID)
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
