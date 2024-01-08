@@ -1946,7 +1946,7 @@
             Y: =181
             ZIndex: =6
 
-    "'Send for Approval_popup_2' As groupContainer.manualLayoutContainer":
+    RejectPopup As groupContainer.manualLayoutContainer:
         Fill: =RGBA(166, 215, 153, 1)
         Height: =557
         Width: =1063

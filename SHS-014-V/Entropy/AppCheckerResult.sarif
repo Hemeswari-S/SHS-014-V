@@ -16713,19 +16713,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.TextInput3_2.AccessibleLabel"
+                  "fullyQualifiedName": "'For Admin Action'.RejectPopup.TextInput3_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.TextInput3_2.AccessibleLabel",
+                  "fullyQualifiedName": "'For Admin Action'.RejectPopup.TextInput3_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Admin Action",
-                "type": "'For Admin Action'.'Send for Approval_popup_2'.TextInput3_2"
+                "type": "'For Admin Action'.RejectPopup.TextInput3_2"
               }
             }
           ],
@@ -18961,19 +18961,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.Label38_2.Text"
+                  "fullyQualifiedName": "'For Admin Action'.RejectPopup.Label38_2.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.Label38_2.Text",
+                  "fullyQualifiedName": "'For Admin Action'.RejectPopup.Label38_2.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
                 "module": "For Admin Action",
-                "type": "'For Admin Action'.'Send for Approval_popup_2'.Label38_2"
+                "type": "'For Admin Action'.RejectPopup.Label38_2"
               }
             }
           ],
