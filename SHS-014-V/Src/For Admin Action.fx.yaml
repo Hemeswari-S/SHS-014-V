@@ -1916,7 +1916,7 @@
                     Collect(ValueofIdS,ThisRecord.ID)
                 );
                 ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Approval1",Gallery_study_7.Selected.ID);
-                UpdateContext({SendforSendforapprovaladmin:false}); Notify("The study is send for approval successfully",NotificationType.Success)
+                UpdateContext({Sendforapprovaladmin:false}); Notify("The study is send for approval successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
             X: =832
