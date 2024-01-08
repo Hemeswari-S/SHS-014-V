@@ -3259,7 +3259,7 @@
                     Filter(Gallery_study_3.AllItems,Checkbox2_1.Value=true),
                     Collect(ValueofId,ThisRecord.ID)
                 );
-                ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,Comments)
+                ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,Comments.Text)
             Text: ="Confirm"
             Width: =210
             X: =832
