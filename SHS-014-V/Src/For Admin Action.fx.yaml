@@ -1967,10 +1967,10 @@
         Label38_2 As label:
             Height: =80
             Size: =20
-            Text: ="Are you sure you want send '"&Gallery_study_3.Selected.Study&"' for Approval?"
-            Width: =779
-            X: =24
-            Y: =124
+            Text: ="Are you sure you want to send the initiatives of '"&Gallery_study_3.Selected.Study&"'?"
+            Width: =869
+            X: =44
+            Y: =95
             ZIndex: =2
 
         Button5_5 As button:
