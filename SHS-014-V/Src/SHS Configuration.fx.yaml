@@ -166,6 +166,7 @@
                             OnChange: |-
                                 =UpdateContext({VarCrntYear:CrntYrDrpDn.SelectedText})
                             PressedColor: =RGBA(0, 0, 0, 1)
+                            Reset: =true
                             ZIndex: =2
 
                         Label36_8 As label:
