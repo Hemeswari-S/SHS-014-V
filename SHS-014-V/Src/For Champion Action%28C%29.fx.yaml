@@ -3269,7 +3269,7 @@
             ZIndex: =5
 
         TextInput3 As text:
-            Default: ="Text input"
+            Default: =""
             Height: =235
             Width: =725
             X: =44
