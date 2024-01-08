@@ -3228,7 +3228,9 @@
         ZIndex: =15
 
         Label37 As label:
+            FontWeight: =FontWeight.Bold
             Height: =77
+            Size: =20
             Text: ="Confirm Submission"
             Width: =412
             X: =4
