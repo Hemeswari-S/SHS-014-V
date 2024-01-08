@@ -16713,36 +16713,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.TextInput3_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.TextInput3_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.'Send for Approval_popup_2'.TextInput3_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Admin Action'.RejectPopup.TextInput3_2.AccessibleLabel"
                 }
               ],
@@ -17697,35 +17667,6 @@
           },
           "ruleId": "app-InefficientDelayLoading",
           "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Admin Action'"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "For Admin Action",
-                "type": "'For Admin Action'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ScreenHasManyControls",
-          "ruleIndex": 12
         },
         {
           "locations": [
@@ -18990,36 +18931,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.Label38_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Admin Action'.'Send for Approval_popup_2'.Label38_3.Text",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "For Admin Action",
-                "type": "'For Admin Action'.'Send for Approval_popup_2'.Label38_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Admin Action'.RejectPopup.Label38_2.Text"
                 }
               ],
@@ -19294,7 +19205,7 @@
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"For Admin Action\" is 305, which exceeds the maximum threshold recommended (300)."
+                "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"For Approval(Approver1)\" is 301, which exceeds the maximum threshold recommended (300)."
               }
             }
           ],
