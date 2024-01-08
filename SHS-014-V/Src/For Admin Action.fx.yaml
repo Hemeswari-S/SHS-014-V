@@ -684,15 +684,9 @@
                             DisabledFill: =Self.Fill
                             Fill: =RGBA(255, 0, 0, 1)
                             HoverFill: =Self.Fill
-                            OnSelect: |-
+                            OnSelect: |+
                                 =UpdateContext({rejectpopup:true});
                                 
-                                Clear(ValueofIdS);
-                                ForAll(
-                                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                                    Collect(ValueofIdS,ThisRecord.ID)
-                                );
-                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID)
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
@@ -1982,8 +1976,8 @@
                     Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
                     Collect(ValueofIdS,ThisRecord.ID)
                 );
-                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Approval1",Gallery_study_7.Selected.ID);
-                UpdateContext({Sendforapprovaladmin:false}); Notify("The study is send for approval successfully",NotificationType.Success)
+                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID);
+                UpdateContext({rejectpopup:false}); Notify("The initiative is rejected successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
             X: =832
