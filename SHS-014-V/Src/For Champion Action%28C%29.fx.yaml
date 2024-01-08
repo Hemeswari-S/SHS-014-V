@@ -3241,16 +3241,6 @@
             Y: =124
             ZIndex: =2
 
-        Comments As text:
-            Default: =""
-            Height: =217
-            HintText: ="Add Comment(Optional)"
-            Size: =20
-            Width: =687
-            X: =96
-            Y: =204
-            ZIndex: =3
-
         Button5 As button:
             Height: =57
             OnSelect: |-
@@ -3260,7 +3250,7 @@
                     Filter(Gallery_study_3.AllItems,Checkbox2_1.Value=true),
                     Collect(ValueofId,ThisRecord.ID)
                 );
-                ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,Comments.Text);
+                ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,TextInput3.Text);
                 UpdateContext({SendforApproval:false})
             Text: ="Confirm"
             Width: =210
@@ -3277,4 +3267,12 @@
             X: =519
             Y: =462
             ZIndex: =5
+
+        TextInput3 As text:
+            Default: ="Text input"
+            Height: =235
+            Width: =725
+            X: =44
+            Y: =181
+            ZIndex: =6
 
