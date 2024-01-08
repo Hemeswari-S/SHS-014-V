@@ -3227,3 +3227,11 @@
         Y: =176
         ZIndex: =15
 
+        Label37 As label:
+            Height: =77
+            Text: ="Text"
+            Width: =412
+            X: =4
+            Y: =18
+            ZIndex: =1
+
