@@ -1881,7 +1881,6 @@
     "'Send for Approval_popup_1' As groupContainer.manualLayoutContainer":
         Fill: =RGBA(166, 215, 153, 1)
         Height: =557
-        Visible: =false
         Width: =1063
         X: =273
         Y: =176
@@ -1910,13 +1909,13 @@
             Height: =57
             OnSelect: |-
                 =
-                Clear(ValueofId);
+                Clear(ValueofIdS);
                 ForAll(
-                    Filter(Gallery_study_3.AllItems,Checkbox2_1.Value=true),
-                    Collect(ValueofId,ThisRecord.ID)
+                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
+                    Collect(ValueofIdS,ThisRecord.ID)
                 );
-                ApprovalFlowforAdminAction.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,TextInput3_1.Text);
-                UpdateContext({SendforApproval:false}); Notify("The study is send for admin review successfully",NotificationType.Success)
+                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Approval1",Gallery_study_7.Selected.ID);
+                UpdateContext({SendforSendforapprovaladmin:false}); Notify("The study is send for approval successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
             X: =832
