@@ -660,7 +660,7 @@
                                     Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
                                     Collect(ValueofIdS,ThisRecord.ID)
                                 );
-                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Approval1")
+                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Approval1",Gallery_study_7.Selected.ID)
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
@@ -695,7 +695,7 @@
                                     Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
                                     Collect(ValueofIdS,ThisRecord.ID)
                                 );
-                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected")
+                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID)
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
@@ -1207,7 +1207,7 @@
                                 );
                                 ApprovalFlowforAdminAction.Run(
                                     JSON(ValueofIdS),
-                                    "Approval1"
+                                    "Approval1",Gallery_study_7.Selected.ID
                                 )
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
@@ -1244,7 +1244,7 @@
                                 );
                                 ApprovalFlowforAdminAction.Run(
                                     JSON(ValueofIdS),
-                                    "Rejected"
+                                    "Rejected",Gallery_study_7.Selected.ID
                                 )
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
