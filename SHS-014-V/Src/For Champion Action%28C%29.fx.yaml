@@ -3219,15 +3219,11 @@
             Y: =630
             ZIndex: =3
 
-    "'Send for Approval_popup' As groupContainer.verticalAutoLayoutContainer":
+    "'Send for Approval_popup' As groupContainer.manualLayoutContainer":
         Fill: =RGBA(166, 215, 153, 1)
-        Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
-        LayoutAlignItems: =LayoutAlignItems.Center
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutGap: =10
-        LayoutMode: =LayoutMode.Auto
-        Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
-        X: ='compForChampionAction(C)'.VarMenuWidth
-        Y: ='compForChampionAction(C)'.ComHeaderHeight
+        Height: =437
+        Width: =1031
+        X: =273
+        Y: =176
         ZIndex: =15
 
