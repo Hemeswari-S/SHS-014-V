@@ -1435,7 +1435,6 @@
                     ZIndex: =1
 
                 DataCardValue74_3 As text:
-                    Align: =Align.Center
                     BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                     Default: =Parent.Default
                     DelayOutput: =true
@@ -1443,6 +1442,7 @@
                     Height: =85
                     MaxLength: =Parent.MaxLength
                     PaddingLeft: =5
+                    PaddingRight: =50
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
