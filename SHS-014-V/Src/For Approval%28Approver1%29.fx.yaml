@@ -284,7 +284,7 @@
                                     Filter(Gallery_study_5.AllItems,Checkbox2_7.Value=true),
                                     Collect(ValueofIdS,ThisRecord.ID)
                                 );
-                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected")
+                                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",)
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
                             RadiusBottomLeft: =0
