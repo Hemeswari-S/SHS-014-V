@@ -17703,6 +17703,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Admin Action'.Sendforapprovaladmin"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Admin Action'.Sendforapprovaladmin",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Sendforapprovaladmin",
+                "module": "For Admin Action",
+                "type": "'For Admin Action'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Y"
                 }
               ],
