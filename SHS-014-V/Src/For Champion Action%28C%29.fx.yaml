@@ -3249,6 +3249,7 @@
         TextInput1 As text:
             Default: =""
             Height: =217
+            HintText: ="Add Comment(Optional)"
             Width: =687
             X: =96
             Y: =204
