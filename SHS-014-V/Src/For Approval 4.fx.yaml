@@ -10,9 +10,9 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Visible: =If(Gallery_study_12.AllItemsCount=0,true,false)
-        Width: =App.Width-'compForApproval(A3)'.VarMenuWidth
-        X: ='compForApproval(A3)'.VarMenuWidth
+        Visible: =If(Gallery_study_14.AllItemsCount=0,true,false)
+        Width: =App.Width-'compForApproval(A4)'.VarMenuWidth
+        X: ='compForApproval(A4)'.VarMenuWidth
         Y: =123
         ZIndex: =2
 
