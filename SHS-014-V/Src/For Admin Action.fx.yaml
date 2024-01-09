@@ -1964,7 +1964,7 @@
                         Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
                         Collect(ValueofId,ThisRecord.ID)
                     );
-                    ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_3.Selected.ID,TextInput1.Text);
+                    ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_3.Selected.DivisionWithStudyId,TextInput1.Text);
                     UpdateContext({Sendforapprovaladmin:false}); Notify("The study is send for Approval Process successfully",NotificationType.Success)
                 Text: ="Confirm"
                 Width: =142
@@ -2035,7 +2035,7 @@
             HintText: ="Add Comments "
             Size: =18
             Width: =725
-            X: =44
-            Y: =181
+            X: =56
+            Y: =175
             ZIndex: =6
 

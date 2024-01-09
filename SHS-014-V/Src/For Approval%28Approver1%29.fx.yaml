@@ -3,35 +3,6 @@
     "'compForApproval(A1)' As Component1":
         Height: =768
 
-    Container14_9 As groupContainer.verticalAutoLayoutContainer:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =537
-        LayoutAlignItems: =LayoutAlignItems.Center
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutJustifyContent: =LayoutJustifyContent.Center
-        LayoutMode: =LayoutMode.Auto
-        Visible: =If(Gallery_study_8.AllItemsCount=0,true,false)
-        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
-        X: ='compForApproval(A1)'.VarMenuWidth
-        Y: =231
-        ZIndex: =2
-
-        Image8_14 As image:
-            Height: =200
-            Image: ='Not found'
-            Width: =200
-            ZIndex: =1
-
-        Label19_14 As label:
-            Align: =Align.Center
-            AlignInContainer: =AlignInContainer.Stretch
-            Color: =RGBA(255, 0, 0, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =80
-            Size: =17
-            Text: ="No Matching Items Found"
-            ZIndex: =2
-
     "'Main-For Champion Action(C)_1' As groupContainer.verticalAutoLayoutContainer":
         Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
@@ -39,7 +10,7 @@
         Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
         X: ='compForApproval(A1)'.VarMenuWidth
         Y: ='compForApproval(A1)'.ComHeaderHeight
-        ZIndex: =3
+        ZIndex: =2
 
         Arrow2_12 As arrow.backArrow:
             Height: =30
@@ -512,6 +483,35 @@
                             OnSelect: |-
                                 =UpdateContext({ShowActionpage:true})
                             ZIndex: =1
+
+    Container14_9 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =537
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Visible: =If(Gallery_study_8.AllItemsCount=0,true,false)
+        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
+        X: ='compForApproval(A1)'.VarMenuWidth
+        Y: =231
+        ZIndex: =3
+
+        Image8_14 As image:
+            Height: =200
+            Image: ='Not found'
+            Width: =200
+            ZIndex: =1
+
+        Label19_14 As label:
+            Align: =Align.Center
+            AlignInContainer: =AlignInContainer.Stretch
+            Color: =RGBA(255, 0, 0, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =80
+            Size: =17
+            Text: ="No Matching Items Found"
+            ZIndex: =2
 
     Actionpage_2 As groupContainer.verticalAutoLayoutContainer:
         Fill: =Color.White
