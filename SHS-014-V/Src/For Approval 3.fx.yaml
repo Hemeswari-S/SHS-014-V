@@ -10,9 +10,9 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Visible: =If(Gallery_study_9.AllItemsCount=0,true,false)
-        Width: =App.Width-'compForApproval(A2)'.VarMenuWidth
-        X: ='compForApproval(A2)'.VarMenuWidth
+        Visible: =If(Gallery_study_12.AllItemsCount=0,true,false)
+        Width: =App.Width-'compForApproval(A3)'.VarMenuWidth
+        X: ='compForApproval(A3)'.VarMenuWidth
         Y: =123
         ZIndex: =2
 
@@ -208,7 +208,7 @@
 
             Gallery_study_12 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Divisions With Study',Title="approver2",StartsWith('Study Name',search_approver2_1.Text)||StartsWith('Division Name',search_approver2_1.Text))
+                Items: =Filter('Divisions With Study',Title="approver3",StartsWith('Study Name',search_approver2_1.Text)||StartsWith('Division Name',search_approver2_1.Text))
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -331,13 +331,13 @@
 
     Actionpage_4 As groupContainer.verticalAutoLayoutContainer:
         Fill: =Color.White
-        Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
+        Height: =App.Height-'compForApproval(A3)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Visible: =ShowActionpage
-        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
-        X: ='compForApproval(A1)'.VarMenuWidth
-        Y: ='compForApproval(A1)'.ComHeaderHeight
+        Width: =App.Width-'compForApproval(A3)'.VarMenuWidth
+        X: ='compForApproval(A3)'.VarMenuWidth
+        Y: ='compForApproval(A3)'.ComHeaderHeight
         ZIndex: =4
 
         "'Button&heading_32' As groupContainer.verticalAutoLayoutContainer":
@@ -1009,15 +1009,15 @@
 
     DisplayInitiative_4 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 0, 1)
-        Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
+        Height: =App.Height-'compForApproval(A3)'.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =10
         LayoutMode: =LayoutMode.Auto
         Visible: =DisplayInitiative
-        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
-        X: ='compForApproval(A1)'.VarMenuWidth
-        Y: ='compForApproval(A1)'.ComHeaderHeight
+        Width: =App.Width-'compForApproval(A3)'.VarMenuWidth
+        X: ='compForApproval(A3)'.VarMenuWidth
+        Y: ='compForApproval(A3)'.ComHeaderHeight
         ZIndex: =5
 
         "'Button&heading_31' As groupContainer.verticalAutoLayoutContainer":
