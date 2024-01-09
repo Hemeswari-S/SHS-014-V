@@ -107,7 +107,7 @@
                 "Rules": [
                   {
                     "Category": "Design",
-                    "InvariantScript": "ThisItem.color",
+                    "InvariantScript": "Color.DarkBlue",
                     "Property": "Fill",
                     "RuleProviderType": "Unknown"
                   },
@@ -167,13 +167,13 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "60",
+                    "InvariantScript": "73",
                     "Property": "Width",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "62",
+                    "InvariantScript": "76",
                     "Property": "Height",
                     "RuleProviderType": "Unknown"
                   },
@@ -454,13 +454,13 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "34",
+                    "InvariantScript": "60",
                     "Property": "Width",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "52",
+                    "InvariantScript": "60",
                     "Property": "Height",
                     "RuleProviderType": "Unknown"
                   },
@@ -4477,7 +4477,7 @@
       },
       "LoginNameMenu"
     ],
-    "LastModifiedTimestamp": "638403683285120302",
+    "LastModifiedTimestamp": "638403699924982470",
     "Name": "Component1",
     "Rules": [
       {
@@ -4687,7 +4687,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638403683285120302",
+  "LastModifiedTimestamp": "638403699924982470",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"

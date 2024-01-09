@@ -350,10 +350,10 @@ Component1 As CanvasComponent:
             ZIndex: =7
 
             Circle1_7 As circle:
-                Fill: =ThisItem.color
-                Height: =62
+                Fill: =Color.DarkBlue
+                Height: =76
                 OnSelect: =
-                Width: =60
+                Width: =73
                 X: =22
                 Y: =18
                 ZIndex: =1
@@ -361,11 +361,11 @@ Component1 As CanvasComponent:
             Label6_6 As label:
                 Color: =RGBA(255, 255, 255, 1)
                 FontWeight: =FontWeight.Semibold
-                Height: =52
+                Height: =60
                 OnSelect: =Set(ShowMenuadmin, !ShowMenuadmin)
                 Size: =25
                 Text: =ThisItem.Title
-                Width: =34
+                Width: =60
                 X: =35
                 Y: =23
                 ZIndex: =2
