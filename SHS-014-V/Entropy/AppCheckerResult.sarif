@@ -18163,6 +18163,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'All Study'.notfound_study_1.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Study'.notfound_study_1.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "All Study",
+                "type": "'All Study'.notfound_study_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 13
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'All Initiatives(C)'.Container14_3.Visible"
                 }
               ],
