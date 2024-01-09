@@ -668,6 +668,7 @@
         Label33 As label:
             AlignInContainer: =AlignInContainer.Start
             FontWeight: =FontWeight.Bold
+            Size: =18
             Text: =Gallery_study_6.Selected.Study&"-"&Gallery_study_6.Selected.'Initiative Name'
             Width: =Parent.Width
             ZIndex: =1
