@@ -665,6 +665,11 @@
         Y: ='compForChampionAction(C)'.ComHeaderHeight
         ZIndex: =6
 
+        Label33 As label:
+            AlignInContainer: =AlignInContainer.Start
+            Text: ="Text"
+            ZIndex: =1
+
         Form3_5 As form:
             AlignInContainer: =AlignInContainer.SetByContainer
             DataSource: ='Initiative List'
@@ -679,7 +684,7 @@
                 =ResetForm(Form3_5);
                 UpdateContext({CeateInitiative:false})
             Width: =Parent.Width-400
-            ZIndex: =1
+            ZIndex: =2
 
             InitiativeCode_DataCard1_5 As typedDataCard.textualEditCard:
                 BorderStyle: =BorderStyle.Solid
