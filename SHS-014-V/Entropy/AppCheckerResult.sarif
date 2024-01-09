@@ -6645,19 +6645,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.Arrow2_17.AccessibleLabel"
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.'End Date_DataCard1_7'.DataCardValue78_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.Arrow2_17.AccessibleLabel",
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.'End Date_DataCard1_7'.DataCardValue78_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.Arrow2_17"
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.'End Date_DataCard1_7'.DataCardValue78_7"
               }
             }
           ],
@@ -6675,49 +6675,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.Arrow2_17.TabIndex"
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.StartDate_DataCard1_7.DataCardValue77_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.Arrow2_17.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.Arrow2_17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.TextInput1_12.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.TextInput1_12.AccessibleLabel",
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.StartDate_DataCard1_7.DataCardValue77_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.TextInput1_12"
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.StartDate_DataCard1_7.DataCardValue77_7"
               }
             }
           ],
@@ -6735,19 +6705,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_43.AccessibleLabel"
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.SubFactors_DataCard1_7.DataCardValue76_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_43.AccessibleLabel",
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.SubFactors_DataCard1_7.DataCardValue76_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_43"
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.SubFactors_DataCard1_7.DataCardValue76_7"
               }
             }
           ],
@@ -6765,49 +6735,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_43.TabIndex"
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Factor_DataCard1_7.DataCardValue75_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_43.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_43"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_44.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_44.AccessibleLabel",
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Factor_DataCard1_7.DataCardValue75_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_44"
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.Factor_DataCard1_7.DataCardValue75_7"
               }
             }
           ],
@@ -6825,19 +6765,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_44.TabIndex"
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Description_DataCard1_7.DataCardValue74_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_44.TabIndex",
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Description_DataCard1_7.DataCardValue74_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "AccessibleLabel",
                 "module": "For Approval 4",
-                "type": "'For Approval 4'.'Main-For Approval(A4)'.'Button&heading_18'.Container27_44.Container25_48.Icon28_44"
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.Description_DataCard1_7.DataCardValue74_7"
               }
             }
           ],
@@ -6847,8 +6787,68 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.'Initiative Name_DataCard1_7'.DataCardValue73_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.'Initiative Name_DataCard1_7'.DataCardValue73_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.'Initiative Name_DataCard1_7'.DataCardValue73_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.InitiativeCode_DataCard1_7.DataCardValue72_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.InitiativeCode_DataCard1_7.DataCardValue72_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.InitiativeCode_DataCard1_7.DataCardValue72_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -18704,6 +18704,636 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.'Target Audience_DataCard1_7'.DataCardValue79_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.'Target Audience_DataCard1_7'.DataCardValue79_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.'Target Audience_DataCard1_7'.DataCardValue79_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Budget_DataCard1_7.DataCardValue80_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Budget_DataCard1_7.DataCardValue80_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7.Budget_DataCard1_7.DataCardValue80_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container26_53.Arrow2_24.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container26_53.Arrow2_24.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container26_53.Arrow2_24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container26_53.Arrow2_24.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container26_53.Arrow2_24.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container26_53.Arrow2_24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_82.Icon27_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_82.Icon27_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_82.Icon27_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_82.Icon27_6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_82.Icon27_6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_82.Icon27_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_83.Container6_50.Icon16_30.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_83.Container6_50.Icon16_30.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_83.Container6_50.Icon16_30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_83.Container6_50.Icon16_30.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_83.Container6_50.Icon16_30.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_35'.Container27_159.Container25_83.Container6_50.Icon16_30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.Container30_19.Gallery_study_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.Container30_19.Gallery_study_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.Container30_19.Gallery_study_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.Container30_19.Gallery_study_13.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.Container30_19.Gallery_study_13.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.Container30_19.Gallery_study_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.search_approver2_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.search_approver2_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.search_approver2_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_41.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_41.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_42.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_42.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_46.Icon28_42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_47.Container6_22.Icon16_22.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_47.Container6_22.Icon16_22.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_47.Container6_22.Icon16_22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_47.Container6_22.Icon16_22.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_47.Container6_22.Icon16_22.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.'Button&heading_17'.Container27_43.Container25_47.Container6_22.Icon16_22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Container32_13.Container33_70.Icon5_11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Container32_13.Container33_70.Icon5_11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Container32_13.Container33_70.Icon5_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Container32_13.Container33_70.Icon5_11.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Container32_13.Container33_70.Icon5_11.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Container32_13.Container33_70.Icon5_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.search_name"
                 }
               ],
@@ -19453,19 +20083,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval 4'.Container14_12.Visible"
+                  "fullyQualifiedName": "'For Approval 4'.CeateInitiative"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'For Approval 4'.Container14_12.Visible",
+                  "fullyQualifiedName": "'For Approval 4'.CeateInitiative",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "Visible",
+                "member": "CeateInitiative",
                 "module": "For Approval 4",
-                "type": "'For Approval 4'.Container14_12"
+                "type": "'For Approval 4'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.Form3_7.Item",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Item",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.DisplayInitiative_5.Form3_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.'Button&heading_34'.Container26_52.Label28_9.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.DisplayInitiative_5.'Button&heading_34'.Container26_52.Label28_9.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.DisplayInitiative_5.'Button&heading_34'.Container26_52.Label28_9"
               }
             }
           ],
@@ -21084,6 +21774,156 @@
                 "member": "Visible",
                 "module": "Approved Initiatives(C)",
                 "type": "'Approved Initiatives(C)'.Container14_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_36'.Container26_54.Label28_10.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Actionpage_5.'Button&heading_36'.Container26_54.Label28_10.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Actionpage_5.'Button&heading_36'.Container26_54.Label28_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'Main-For Champion Action(C)_4'.Container30_20.Gallery_study_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Container14_12.X"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Container14_12.X",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "X",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Container14_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Container14_12.Width"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Container14_12.Width",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Width",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Container14_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 14
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.Container14_12.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.Container14_12.Visible",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.Container14_12"
               }
             }
           ],
