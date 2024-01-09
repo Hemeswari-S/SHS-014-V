@@ -34,8 +34,6 @@
       "EmailID": "EmailID",
       "FirstName": "FirstName",
       "ID": "ID",
-      "LoginPerson": "LoginPerson",
-      "LoginPerson#Claims": "LoginPerson Claims",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
       "Password": "Password",
