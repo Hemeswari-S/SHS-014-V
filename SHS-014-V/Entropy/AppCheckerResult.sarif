@@ -19571,36 +19571,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives'.DisplayInitiative"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Initiatives'.DisplayInitiative",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DisplayInitiative",
-                "module": "All Initiatives",
-                "type": "'All Initiatives'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Y"
                 }
               ],
