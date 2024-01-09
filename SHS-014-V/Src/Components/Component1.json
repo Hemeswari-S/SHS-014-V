@@ -155,25 +155,25 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "22",
+                    "InvariantScript": "35",
                     "Property": "X",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "18",
+                    "InvariantScript": "32",
                     "Property": "Y",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "73",
+                    "InvariantScript": "44",
                     "Property": "Width",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "76",
+                    "InvariantScript": "48",
                     "Property": "Height",
                     "RuleProviderType": "Unknown"
                   },
@@ -448,7 +448,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "23",
+                    "InvariantScript": "32",
                     "Property": "Y",
                     "RuleProviderType": "Unknown"
                   },
@@ -460,7 +460,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "60",
+                    "InvariantScript": "48",
                     "Property": "Height",
                     "RuleProviderType": "Unknown"
                   },
@@ -496,7 +496,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "25",
+                    "InvariantScript": "20",
                     "Property": "Size",
                     "RuleProviderType": "Unknown"
                   },
@@ -4477,7 +4477,7 @@
       },
       "LoginNameMenu"
     ],
-    "LastModifiedTimestamp": "638403699924982470",
+    "LastModifiedTimestamp": "638403701835610644",
     "Name": "Component1",
     "Rules": [
       {
@@ -4687,7 +4687,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638403699924982470",
+  "LastModifiedTimestamp": "638403701835610644",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"
