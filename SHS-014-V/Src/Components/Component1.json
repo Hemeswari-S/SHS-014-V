@@ -4482,9 +4482,16 @@
         "IsLockable": false,
         "NameMapSourceSchema": "?"
       },
-      "LoginNameMenu"
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "If(\n    VarUSerName = \"admin\",\n    Table({Title: \"A\",color: Color.Purple}),\n    If(\n        VarUSerName = \"champion\",\n        Table(\n            {\n                Title: \"C\",\n                color: Color.DeepPink\n            }\n        ),\n        If(\n            VarUSerName = \"approver1\",\n            Table(\n                {\n                    Title: \"A1\",\n                    color: Color.Yellow\n                }\n            ),\n            If(\n                VarUSerName = \"approver2\",\n                Table(\n                    {\n                        Title: \"A2\",\n                        color: Color.OrangeRed\n                    }\n                ),\n                If(\n                    VarUSerName = \"approver3\",\n                    Table(\n                        {\n                            Title: \"A3\",\n                            color: Color.Green\n                        }\n                    ),\n                    If(\n                        VarUSerName = \"approver4\",\n                        Table(\n                            {\n                                Title: \"A4\",\n                                color: Color.RosyBrown\n                            }\n                        )\n                    )\n                )\n            )\n        )\n    )\n)",
+        "InvariantPropertyName": "LoginNameMenu",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
-    "LastModifiedTimestamp": "638403706365633390",
+    "LastModifiedTimestamp": "638403710455289072",
     "Name": "Component1",
     "Rules": [
       {
@@ -4543,7 +4550,7 @@
       },
       {
         "Category": "Data",
-        "InvariantScript": "If(\n    VarUSerName = \"admin\",\n    Table({Title: \"A\",color: Color.Purple}),\n    If(\n        VarUSerName = \"champion\",\n        Table(\n            {\n                Title: \"C\",\n                color: Color.DeepPink\n            }\n        ),\n        If(\n            VarUSerName = \"approver1\",\n            Table(\n                {\n                    Title: \"A1\",\n                    color: Color.Yellow\n                }\n            ),\n            If(\n                VarUSerName = \"approver2\",\n                Table(\n                    {\n                        Title: \"A2\",\n                        color: Color.OrangeRed\n                    }\n                ),\n                If(\n                    VarUSerName = \"approver3\",\n                    Table(\n                        {\n                            Title: \"A3\",\n                            color: Color.Green\n                        }\n                    ),\n                    If(\n                        VarUSerName = \"approver4\",\n                        Table(\n                            {\n                                Title: \"A4\",\n                                color: Color.RosyBrown\n                            }\n                        )\n                    )\n                )\n            )\n        )\n    )\n)",
+        "InvariantScript": "If(\n    VarUSerName = \"admin\",\n    Table({Title: \"A\",color: Color.DeepPink}),\n    If(\n        VarUSerName = \"champion\",\n        Table(\n            {\n                Title: \"C\",\n                color: Color.DeepSkyBlue\n            }\n        ),\n        If(\n            VarUSerName = \"approver1\",\n            Table(\n                {\n                    Title: \"A1\",\n                    color: Color.DarkBlue\n                }\n            ),\n            If(\n                VarUSerName = \"approver2\",\n                Table(\n                    {\n                        Title: \"A2\",\n                        color: Color.DarkViolet\n                    }\n                ),\n                If(\n                    VarUSerName = \"approver3\",\n                    Table(\n                        {\n                            Title: \"A3\",\n                            color: Color.DarkCyan\n                        }\n                    ),\n                    If(\n                        VarUSerName = \"approver4\",\n                        Table(\n                            {\n                                Title: \"A4\",\n                                color: Color.DarkSalmon\n                            }\n                        )\n                    )\n                )\n            )\n        )\n    )\n)",
         "Property": "LoginNameMenu",
         "RuleProviderType": "System"
       },
@@ -4694,7 +4701,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638403706365633390",
+  "LastModifiedTimestamp": "638403710455289072",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"

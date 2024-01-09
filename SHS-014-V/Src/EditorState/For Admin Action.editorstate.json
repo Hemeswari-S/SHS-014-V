@@ -6128,7 +6128,7 @@
         {
           "Category": "Data",
           "PropertyName": "LoginNameMenu",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Data",

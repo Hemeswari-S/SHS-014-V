@@ -20,13 +20,13 @@ Component1 As CanvasComponent:
     LoginNameMenu: |-
         =If(
             VarUSerName = "admin",
-            Table({Title: "A",color: Color.Purple}),
+            Table({Title: "A",color: Color.DeepPink}),
             If(
                 VarUSerName = "champion",
                 Table(
                     {
                         Title: "C",
-                        color: Color.DeepPink
+                        color: Color.DeepSkyBlue
                     }
                 ),
                 If(
@@ -34,7 +34,7 @@ Component1 As CanvasComponent:
                     Table(
                         {
                             Title: "A1",
-                            color: Color.Yellow
+                            color: Color.DarkBlue
                         }
                     ),
                     If(
@@ -42,7 +42,7 @@ Component1 As CanvasComponent:
                         Table(
                             {
                                 Title: "A2",
-                                color: Color.OrangeRed
+                                color: Color.DarkViolet
                             }
                         ),
                         If(
@@ -50,7 +50,7 @@ Component1 As CanvasComponent:
                             Table(
                                 {
                                     Title: "A3",
-                                    color: Color.Green
+                                    color: Color.DarkCyan
                                 }
                             ),
                             If(
@@ -58,7 +58,7 @@ Component1 As CanvasComponent:
                                 Table(
                                     {
                                         Title: "A4",
-                                        color: Color.RosyBrown
+                                        color: Color.DarkSalmon
                                     }
                                 )
                             )
