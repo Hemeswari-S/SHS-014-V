@@ -37,8 +37,8 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
-        X: ='compForChampionAction(C)'.VarMenuWidth
-        Y: ='compForChampionAction(C)'.ComHeaderHeight
+        X: ='compForApproval(A1)'.VarMenuWidth
+        Y: ='compForApproval(A1)'.ComHeaderHeight
         ZIndex: =3
 
         Arrow2_12 As arrow.backArrow:
