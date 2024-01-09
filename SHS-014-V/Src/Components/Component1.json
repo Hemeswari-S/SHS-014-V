@@ -259,7 +259,14 @@
                   },
                   "Align",
                   "VerticalAlign",
-                  "X",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "",
+                    "InvariantPropertyName": "X",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   "Y",
                   "Width",
                   "Height",
@@ -442,7 +449,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "35",
+                    "InvariantScript": "40",
                     "Property": "X",
                     "RuleProviderType": "Unknown"
                   },
@@ -496,7 +503,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "20",
+                    "InvariantScript": "15",
                     "Property": "Size",
                     "RuleProviderType": "Unknown"
                   },
@@ -4477,7 +4484,7 @@
       },
       "LoginNameMenu"
     ],
-    "LastModifiedTimestamp": "638403701835610644",
+    "LastModifiedTimestamp": "638403702330043580",
     "Name": "Component1",
     "Rules": [
       {
@@ -4687,7 +4694,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638403701835610644",
+  "LastModifiedTimestamp": "638403702330043580",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"

@@ -363,10 +363,10 @@ Component1 As CanvasComponent:
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 OnSelect: =Set(ShowMenuadmin, !ShowMenuadmin)
-                Size: =20
+                Size: =15
                 Text: =ThisItem.Title
                 Width: =60
-                X: =35
+                X: =40
                 Y: =32
                 ZIndex: =2
 
