@@ -515,13 +515,13 @@
 
     Actionpage_2 As groupContainer.verticalAutoLayoutContainer:
         Fill: =Color.White
-        Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
+        Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Visible: =ShowActionpage
-        Width: =App.Width-compForAdminAction.VarMenuWidth
+        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
         X: ='compForApproval(A1)'.VarMenuWidth
-        Y: ='compForChampionAction(C)'.ComHeaderHeight
+        Y: ='compForApproval(A1)'.ComHeaderHeight
         ZIndex: =4
 
         "'Button&heading_25' As groupContainer.verticalAutoLayoutContainer":
@@ -1203,15 +1203,15 @@
 
     DisplayInitiative_2 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 0, 1)
-        Height: =App.Height-compForAdminAction.ComHeaderHeight
+        Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =10
         LayoutMode: =LayoutMode.Auto
         Visible: =DisplayInitiative
-        Width: =App.Width-compForAdminAction.VarMenuWidth
-        X: =compForAdminAction.VarMenuWidth
-        Y: =compForAdminAction.ComHeaderHeight
+        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
+        X: ='compForApproval(A1)'.VarMenuWidth
+        Y: ='compForApproval(A1)'.ComHeaderHeight
         ZIndex: =5
 
         "'Button&heading_27' As groupContainer.verticalAutoLayoutContainer":
