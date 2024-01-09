@@ -683,6 +683,7 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
+        Visible: =DeleteInitiative
         Width: =App.Width-compAllInitiatives.VarMenuWidth
         X: =compAllInitiatives.VarMenuWidth
         Y: =compAllInitiatives.ComHeaderHeight
@@ -699,7 +700,6 @@
             LayoutMinHeight: =300
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            Visible: =ShowPopup_Delete
             Width: =700
             ZIndex: =1
 

@@ -19391,36 +19391,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'All Initiatives'.DeleteInitiative"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'All Initiatives'.DeleteInitiative",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "DeleteInitiative",
-                "module": "All Initiatives",
-                "type": "'All Initiatives'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'All Initiatives'.DisplayInitiative"
                 }
               ],
@@ -19462,6 +19432,36 @@
               },
               "properties": {
                 "member": "EditInitiative",
+                "module": "All Initiatives",
+                "type": "'All Initiatives'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'All Initiatives'.ShowPopup_Delete"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives'.ShowPopup_Delete",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowPopup_Delete",
                 "module": "All Initiatives",
                 "type": "'All Initiatives'"
               }
