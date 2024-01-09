@@ -212,10 +212,10 @@
                                             "Current Year Has Been Updated Successfully",
                                             NotificationType.Success,
                                             2000
-                                        )
+                                        );Set(VarCurrentYear,VarCrntYear);
                                     );
                                     
-                                );Set(VarCurrentYear,VarCrntYear);
+                                );
                             PressedColor: =Self.Color
                             PressedFill: =Self.Fill
                             Text: ="Update"
