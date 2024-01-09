@@ -36,6 +36,7 @@
       "CurrentPending": "Current Pending",
       "Description": "Description",
       "DivisionId": "DivisionId",
+      "DivisionWithStudyId": "DivisionWithStudyId",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
       "EndDate": "End Date",

@@ -571,8 +571,8 @@
                         Icon: =Icon.Reload
                         OnSelect: =Refresh('Initiative List')
                         Width: =36
-                        X: =270
-                        Y: =21
+                        X: =300
+                        Y: =24
                         ZIndex: =1
 
                 Container25_56 As groupContainer.manualLayoutContainer:
@@ -719,7 +719,9 @@
 
                         Button1_33 As button:
                             DisabledFill: =Self.Fill
-                            Fill: =RGBA(5, 89, 8, 1)
+                            Fill: =RGBA(40, 134, 222, 1)
+                            Height: |
+                                =40
                             HoverFill: =Self.Fill
                             OnSelect: |-
                                 =UpdateContext({Sendforapprovaladmin:true})
@@ -749,7 +751,7 @@
 
                         Button1_32 As button:
                             DisabledFill: =Self.Fill
-                            Fill: =RGBA(255, 0, 0, 1)
+                            Fill: =RGBA(189, 49, 51, 1)
                             HoverFill: =Self.Fill
                             OnSelect: |+
                                 =UpdateContext({rejectpopup:true});
