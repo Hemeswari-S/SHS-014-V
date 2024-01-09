@@ -350,7 +350,7 @@ Component1 As CanvasComponent:
             ZIndex: =7
 
             Circle1_7 As circle:
-                Fill: =Color.DarkBlue
+                Fill: =RGBA(40, 134, 222, 1)
                 Height: =48
                 OnSelect: =
                 Width: =44
