@@ -139,34 +139,6 @@
     "dependents": [],
     "id": "4830deb5-8567-4efe-9763-821202109736"
   },
-  "4ac9c0f8-bb59-49a5-b36e-86dfc595f1e6": {
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "c23b9857-8452-49e7-b014-1198d755b923"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "c23b9857-8452-49e7-b014-1198d755b923"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "ApprovalFlowforAdminAction"
-    ],
-    "dependencies": {
-      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-    },
-    "dependents": [],
-    "id": "4ac9c0f8-bb59-49a5-b36e-86dfc595f1e6"
-  },
   "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read",
@@ -277,7 +249,7 @@
       "6b096c2b-d504-4a22-aa03-1a76fdd40267",
       "96e0ef31-034b-4a6d-a875-397f51e8ac00",
       "fdd71ab1-bb3a-4314-9161-4357489d9bfc",
-      "4ac9c0f8-bb59-49a5-b36e-86dfc595f1e6"
+      "e2a05fcf-d7b9-448a-b846-60a9a06ca579"
     ],
     "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
   },
@@ -580,6 +552,34 @@
     },
     "dependents": [],
     "id": "d2bb8c68-f114-45ea-adc7-01eb766a1e47"
+  },
+  "e2a05fcf-d7b9-448a-b846-60a9a06ca579": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "c23b9857-8452-49e7-b014-1198d755b923"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "c23b9857-8452-49e7-b014-1198d755b923"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ApprovalFlowforAdminAction"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+    },
+    "dependents": [],
+    "id": "e2a05fcf-d7b9-448a-b846-60a9a06ca579"
   },
   "e720fb3b-2d24-48d8-980e-b925c37a3d46": {
     "connectionRef": {

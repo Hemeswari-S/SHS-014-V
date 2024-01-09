@@ -1956,7 +1956,8 @@
                 Y: =300
                 ZIndex: =3
 
-            Button6_1 As button:
+            Button5_16 As button:
+                DisplayMode: =If(TextInput3_3.Text="",DisplayMode.Disabled,DisplayMode.Edit)
                 OnSelect: |-
                     =
                     Clear(ValueofId);
@@ -1965,10 +1966,10 @@
                         Collect(ValueofId,ThisRecord.ID)
                     );
                     ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_3.Selected.ID,TextInput3_3.Text);
-                    UpdateContext({Sendforapprovaladmin:false}); Notify("The study is send for Approval Process successfully",NotificationType.Success)
+                    UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success)
                 Text: ="Confirm"
-                Width: =142
-                X: =624
+                Width: =150
+                X: =626
                 Y: =300
                 ZIndex: =4
 
