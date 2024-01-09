@@ -675,3 +675,88 @@
                                 =UpdateContext({DisplayInitiative:true})
                             ZIndex: =3
 
+    DeletePopup_Study_1 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Fill: =RGBA(55, 219, 200, 0.42)
+        Height: =App.Height-compStudy.ComHeaderHeight
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Visible: =ShowPopup_Delete
+        Width: =App.Width-compAllInitiatives.VarMenuWidth
+        X: =compStudy.VarMenuWidth
+        Y: =compOptions.ComHeaderHeight
+        ZIndex: =6
+
+        Container34_7 As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Bold
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =300
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =300
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Visible: =ShowPopup_Delete
+            Width: =700
+            ZIndex: =1
+
+            Label25_7 As label:
+                Color: =RGBA(255, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Size: =20
+                Text: ="Confirmation"
+                Width: =700
+                ZIndex: =1
+
+            Container37_7 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutGap: =50
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+                Label30_7 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Semibold
+                    Size: =20
+                    Text: ="Are you sure! Do you want to delete?"
+                    ZIndex: =1
+
+            Container39_7 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutGap: =50
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =3
+
+                Button16_14 As button:
+                    Fill: =RGBA(215, 58, 60, 1)
+                    HoverFill: =Self.Fill
+                    OnSelect: |-
+                        =Remove('Study(Administration)',Gallery_study.Selected);UpdateContext({ShowPopup_Delete:false});Notify("The Study has been deleted sucessfully",NotificationType.Success)
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    Text: ="Yes"
+                    ZIndex: =1
+
+                Button16_15 As button:
+                    Fill: =RGBA(215, 58, 60, 1)
+                    HoverFill: =Self.Fill
+                    OnSelect: |-
+                        =UpdateContext({ShowPopup_Delete:false})
+                    PressedColor: =Self.Color
+                    PressedFill: =Self.Fill
+                    Text: ="No"
+                    ZIndex: =2
+
