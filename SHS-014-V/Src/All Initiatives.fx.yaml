@@ -1306,7 +1306,7 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Visible: =If(Gallery_study.AllItemsCount=0,true,false)
+        Visible: =If(Gallery_study_6.AllItemsCount=0,true,false)
         Width: =App.Width-compAllInitiatives.VarMenuWidth
         X: =compAllInitiatives.VarMenuWidth
         Y: =231
