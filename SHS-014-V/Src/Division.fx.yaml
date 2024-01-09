@@ -1448,7 +1448,7 @@ Division As screen:
                 ZIndex: =4
 
                 Button4 As button:
-                    DisplayMode: =If(Form1.Valid,DisplayMode.Edit,DisplayMode.Disabled)
+                    DisplayMode: =If(Form4.Valid,DisplayMode.Edit,DisplayMode.Disabled)
                     Fill: =RGBA(54, 176, 75, 1)
                     HoverFill: =Self.Fill
                     OnSelect: |
