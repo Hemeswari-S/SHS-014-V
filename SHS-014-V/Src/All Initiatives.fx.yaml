@@ -451,7 +451,7 @@
 
             Gallery_study_6 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',StartsWith('Initiative Name',SearchAllInitiatives.Text)||StartsWith(Study,SearchAllInitiatives.Text))
+                Items: =Filter('Initiative List',StartsWith('Initiative Name',SearchAllInitiatives.Text)||StartsWith(Study,SearchAllInitiatives.Text)||StartsWith(Progress,SearchAllInitiatives.Text))
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
