@@ -3,7 +3,7 @@
     "'compForApproval(A1)' As Component1":
         Height: =768
 
-    "'Main-For Champion Action(C)_1' As groupContainer.verticalAutoLayoutContainer":
+    "'ForApprovel1-main' As groupContainer.verticalAutoLayoutContainer":
         Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
@@ -186,6 +186,7 @@
                             ZIndex: =2
 
         Container14_14 As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(255, 255, 255, 1)
             Height: =537
             LayoutAlignItems: =LayoutAlignItems.Center
@@ -201,6 +202,7 @@
             ZIndex: =4
 
         Header_question_14 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             BorderThickness: =1
             FillPortions: =0
             Height: =80
@@ -484,7 +486,7 @@
                                 =UpdateContext({ShowActionpage:true})
                             ZIndex: =1
 
-    Container14_9 As groupContainer.verticalAutoLayoutContainer:
+    NotFound As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =537
         LayoutAlignItems: =LayoutAlignItems.Center
@@ -505,7 +507,6 @@
 
         Label19_14 As label:
             Align: =Align.Center
-            AlignInContainer: =AlignInContainer.Stretch
             Color: =RGBA(255, 0, 0, 1)
             FontWeight: =FontWeight.Bold
             Height: =80
@@ -1926,7 +1927,7 @@
             Y: =630
             ZIndex: =3
 
-    Container53_1 As groupContainer.manualLayoutContainer:
+    ApprovePopup As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 134, 222, 0.15)
         Height: =App.Height-compForAdminAction.ComHeaderHeight
         Visible: =Sendforapproval
@@ -1975,8 +1976,8 @@
                     =Clear(ValueofId);
                     ForAll(
                         Filter(
-                            Gallery_study_4.AllItems,
-                            Checkbox2_3.Value = true
+                            Gallery_study_5.AllItems,
+                            Checkbox2_7.Value = true
                         ),
                         Collect(
                             ValueofId,
@@ -1984,7 +1985,7 @@
                         )
                     );
                     ResponceFlow.Run(
-                        "Approver1",
+                        "approver1",
                         "Approved",
                         TextInput1_8.Text,
                         JSON(ValueofId)
@@ -2031,15 +2032,29 @@
         Button5_9 As button:
             DisplayMode: =If(TextInput3_4.Text="",DisplayMode.Disabled,DisplayMode.Edit)
             Height: =57
-            OnSelect: |-
-                =
-                Clear(ValueofId);
+            OnSelect: |
+                =Clear(ValueofId);
                 ForAll(
-                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                    Collect(ValueofId,ThisRecord.ID)
+                    Filter(
+                        Gallery_study_5.AllItems,
+                        Checkbox2_7.Value = true
+                    ),
+                    Collect(
+                        ValueofId,
+                        ThisRecord.ID
+                    )
                 );
-                ResponceFlow.Run(JSON(ValueofId),"Rejected",Gallery_study_3.Selected.ID,TextInput3_4.Text);
-                UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success)
+                ResponceFlow.Run(
+                    "approver1",
+                    "Rejected",
+                    TextInput1_8.Text,
+                    JSON(ValueofId)
+                );
+                UpdateContext({Sendforapproval: false});
+                Notify(
+                    "The study is Rejected successfully",
+                    NotificationType.Success
+                );
             Text: ="Confirm"
             Width: =210
             X: =832
