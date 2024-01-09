@@ -33,10 +33,10 @@
             ZIndex: =2
 
     "'Main-For Champion Action(C)_1' As groupContainer.verticalAutoLayoutContainer":
-        Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
+        Height: =App.Height-'compForApproval(A1)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =App.Width-'compForChampionAction(C)'.VarMenuWidth
+        Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
         X: ='compForChampionAction(C)'.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
         ZIndex: =3
