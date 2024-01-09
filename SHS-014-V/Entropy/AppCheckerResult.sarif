@@ -614,32 +614,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.Approver1_DataCard1.Update"
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.Approver1_DataCard1.Update",
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 14,
+                  "charLength": 5,
+                  "charOffset": 3,
                   "snippet": {
-                    "text": ".Selected"
+                    "text": "Form1"
                   }
                 }
               },
               "properties": {
-                "member": "Update",
+                "member": "DisplayMode",
                 "module": "Division",
-                "type": "Division.AddPop.Container27_2.Container28_4.Form1.Approver1_DataCard1"
+                "type": "Division.AddPop.Container27_2.Container28_3.Button4"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Selected"
+              "Form1"
             ],
             "id": "issue"
           },
@@ -654,66 +654,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.Approver2_DataCard1.Update"
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.Approver2_DataCard1.Update",
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
+                  "charLength": 6,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": "DataCardValue7"
+                    "text": ".Valid"
                   }
                 }
               },
               "properties": {
-                "member": "Update",
+                "member": "DisplayMode",
                 "module": "Division",
-                "type": "Division.AddPop.Container27_2.Container28_4.Form1.Approver2_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue7"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.Approver2_DataCard1.Update"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.Approver2_DataCard1.Update",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 14,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Update",
-                "module": "Division",
-                "type": "Division.AddPop.Container27_2.Container28_4.Form1.Approver2_DataCard1"
+                "type": "Division.AddPop.Container27_2.Container28_3.Button4"
               }
             }
           ],
@@ -725,6 +685,166 @@
           },
           "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 53,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(Form1.Valid,DisplayMode.Edit,DisplayMode.Disabled)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_3.Button4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 27,
+                  "snippet": {
+                    "text": "Form1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_3.Button4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Form1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 168,
+                  "snippet": {
+                    "text": "Form1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_3.Button4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Form1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_3.Button4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 158,
+                  "snippet": {
+                    "text": "ResetForm(Form1)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_3.Button4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ResetForm"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -885,7 +1005,7 @@
             "level": "Medium"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -999,7 +1119,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType",
-          "ruleIndex": 4
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1039,7 +1159,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1153,7 +1273,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1309,7 +1429,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType",
-          "ruleIndex": 4
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1349,7 +1469,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1463,7 +1583,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3852,19 +3972,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.'Division Name_DataCard1'.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.'Division Code_DataCard3'.DataCardValue18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.'Division Name_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.'Division Code_DataCard3'.DataCardValue18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Division",
-                "type": "Division.AddPop.Container27_2.Container28_4.Form1.'Division Name_DataCard1'.DataCardValue1"
+                "type": "Division.AddPop.Container27_2.Container28_4.Form4.'Division Code_DataCard3'.DataCardValue18"
               }
             }
           ],
@@ -3882,19 +4002,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.'Division Code_DataCard1'.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.'Division Name_DataCard3'.DataCardValue16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form1.'Division Code_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.'Division Name_DataCard3'.DataCardValue16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Division",
-                "type": "Division.AddPop.Container27_2.Container28_4.Form1.'Division Code_DataCard1'.DataCardValue2"
+                "type": "Division.AddPop.Container27_2.Container28_4.Form4.'Division Name_DataCard3'.DataCardValue16"
               }
             }
           ],
@@ -19151,6 +19271,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver1_DataCard3.DataCardValue20.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver1_DataCard3.DataCardValue20.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_4.Form4.Approver1_DataCard3.DataCardValue20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver2_DataCard3.DataCardValue21.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver2_DataCard3.DataCardValue21.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_4.Form4.Approver2_DataCard3.DataCardValue21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver3_DataCard3.DataCardValue23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver3_DataCard3.DataCardValue23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_4.Form4.Approver3_DataCard3.DataCardValue23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver4_DataCard3.DataCardValue29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Division.AddPop.Container27_2.Container28_4.Form4.Approver4_DataCard3.DataCardValue29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Division",
+                "type": "Division.AddPop.Container27_2.Container28_4.Form4.Approver4_DataCard3.DataCardValue29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.search_name"
                 }
               ],
@@ -21719,6 +21959,20 @@
               }
             },
             {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
               "messageStrings": {
                 "issue": {
@@ -21741,20 +21995,6 @@
               "messageStrings": {
                 "issue": {
                   "text": "Invalid argument type."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
                 }
               },
               "properties": {
