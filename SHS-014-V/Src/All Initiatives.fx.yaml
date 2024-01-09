@@ -678,15 +678,14 @@
     DeletePopup_Study_1 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.Regular
         Fill: =RGBA(55, 219, 200, 0.42)
-        Height: =App.Height-compStudy.ComHeaderHeight
+        Height: =App.Height-compAllInitiatives.ComHeaderHeight
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Visible: =ShowPopup_Delete
         Width: =App.Width-compAllInitiatives.VarMenuWidth
-        X: =compStudy.VarMenuWidth
-        Y: =compOptions.ComHeaderHeight
+        X: =compAllInitiatives.VarMenuWidth
+        Y: =compAllInitiatives.ComHeaderHeight
         ZIndex: =6
 
         Container34_7 As groupContainer.verticalAutoLayoutContainer:
