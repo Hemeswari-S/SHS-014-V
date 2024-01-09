@@ -690,7 +690,7 @@
                 Label28_3 As label:
                     FontWeight: =FontWeight.Bold
                     PaddingLeft: =20
-                    Text: =Gallery_study_2.Selected.'Study Name'
+                    Text: =Gallery_study_8.Selected.'Study Name'
                     Width: =Parent.Width
                     ZIndex: =1
 
@@ -1000,7 +1000,7 @@
 
             Gallery_study_5 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',Progress="approver1")
+                Items: =Filter('Initiative List',Progress="approval1")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320

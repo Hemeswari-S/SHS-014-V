@@ -22199,36 +22199,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'For Approval(Approver1)'.Actionpage_2.'Button&heading_26'.Container26_44.Label28_3.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'For Approval(Approver1)'.Actionpage_2.'Button&heading_26'.Container26_44.Label28_3.Text",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "For Approval(Approver1)",
-                "type": "'For Approval(Approver1)'.Actionpage_2.'Button&heading_26'.Container26_44.Label28_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 14
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'For Approval(Approver1)'.DisplayInitiative_2.'Button&heading_27'.Container26_45.Label28_4.Text"
                 }
               ],
