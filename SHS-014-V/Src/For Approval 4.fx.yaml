@@ -360,7 +360,7 @@
 
             Gallery_study_14 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Divisions With Study',Title="approver3",StartsWith('Study Name',search_approver2_2.Text)||StartsWith('Division Name',search_approver2_2.Text))
+                Items: =Filter('Divisions With Study',Title="approver4",StartsWith('Study Name',search_approver2_2.Text)||StartsWith('Division Name',search_approver2_2.Text))
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320

@@ -28,23 +28,6 @@
             Y: =95
             ZIndex: =2
 
-        Button5_5 As button:
-            Height: =57
-            OnSelect: |-
-                =
-                Clear(ValueofIdS);
-                ForAll(
-                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                    Collect(ValueofIdS,ThisRecord.ID)
-                );
-                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID);
-                UpdateContext({rejectpopup:false}); Notify("The initiative is rejected successfully",NotificationType.Success)
-            Text: ="Confirm"
-            Width: =210
-            X: =832
-            Y: =462
-            ZIndex: =4
-
         Button5_4 As button:
             Fill: =RGBA(255, 191, 0, 1)
             Height: =57
@@ -1940,12 +1923,54 @@
 
         "'Send for Approval_popup_1' As groupContainer.manualLayoutContainer":
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =537
+            Height: =389
             Visible: =Sendforapprovaladmin
-            Width: =1073
-            X: =195
-            Y: =40
+            Width: =Parent.Width-500
+            X: =222
+            Y: =99
             ZIndex: =1
+
+            Label33 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =54
+                Text: ="Are Sure you sure you want"""&Gallery_study_4.Selected.Study &""" to Send For Approval?"
+                Width: =Parent.Width
+                Y: =24
+                ZIndex: =1
+
+            TextInput1 As text:
+                Default: ="Text input"
+                Height: =118
+                Width: =572
+                X: =147
+                Y: =92
+                ZIndex: =2
+
+            Button6 As button:
+                OnSelect: |-
+                    =UpdateContext({Sendforapprovaladmin:false})
+                Text: ="Cancel"
+                Width: =142
+                X: =435
+                Y: =300
+                ZIndex: =3
+
+            Button6_1 As button:
+                OnSelect: |-
+                    =
+                    Clear(ValueofId);
+                    ForAll(
+                        Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
+                        Collect(ValueofId,ThisRecord.ID)
+                    );
+                    ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_3.Selected.ID,TextInput1.Text);
+                    UpdateContext({Sendforapprovaladmin:false}); Notify("The study is send for Approval Process successfully",NotificationType.Success)
+                Text: ="Confirm"
+                Width: =142
+                X: =624
+                Y: =300
+                ZIndex: =4
 
     RejectPopup_1 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(152, 208, 70, 1)
@@ -1976,16 +2001,17 @@
             ZIndex: =2
 
         Button5_7 As button:
+            DisplayMode: =If(TextInput3_3.Text="",DisplayMode.Disabled,DisplayMode.Edit)
             Height: =57
             OnSelect: |-
                 =
-                Clear(ValueofIdS);
+                Clear(ValueofId);
                 ForAll(
                     Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                    Collect(ValueofIdS,ThisRecord.ID)
+                    Collect(ValueofId,ThisRecord.ID)
                 );
-                ApprovalFlowforAdminAction.Run(JSON(ValueofIdS),"Rejected",Gallery_study_7.Selected.ID);
-                UpdateContext({rejectpopup:false}); Notify("The initiative is rejected successfully",NotificationType.Success)
+                ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Rejected",Gallery_study_3.Selected.ID,TextInput3_3.Text);
+                UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
             X: =832
@@ -2006,7 +2032,7 @@
         TextInput3_3 As text:
             Default: =""
             Height: =235
-            HintText: ="Add Comments (Optional)"
+            HintText: ="Add Comments "
             Size: =18
             Width: =725
             X: =44

@@ -10,7 +10,7 @@
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Visible: =If(Gallery9.AllItemsCount=0,true,false)
+        Visible: =If(Gallery_study_8.AllItemsCount=0,true,false)
         Width: =App.Width-'compForApproval(A1)'.VarMenuWidth
         X: ='compForApproval(A1)'.VarMenuWidth
         Y: =231

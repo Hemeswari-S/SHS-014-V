@@ -1,7 +1,7 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "790210bf-ba4e-4ca8-a734-a42cdfa1023e",
+    "FlowNameId": "c23b9857-8452-49e7-b014-1198d755b923",
     "Name": "ApprovalFlowforAdminAction",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
