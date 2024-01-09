@@ -1453,13 +1453,13 @@ Division As screen:
                     HoverFill: =Self.Fill
                     OnSelect: |
                         =SubmitForm(Form4);
-                        NewForm(Form1);
+                        NewForm(Form4);
                         UpdateContext({showpopup: false});
                         Notify(
                             "The division has been added successfully",
                             NotificationType.Success
                         );
-                        ResetForm(Form1);
+                        ResetForm(Form4);
                     PressedColor: =Self.Color
                     PressedFill: =Self.Fill
                     Text: ="Save"
