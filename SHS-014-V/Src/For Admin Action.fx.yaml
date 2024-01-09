@@ -1930,20 +1930,22 @@
             ZIndex: =3
 
     "'Send for Approval_popup_1' As groupContainer.manualLayoutContainer":
-        Fill: =RGBA(166, 215, 153, 1)
-        Height: =557
+        Fill: =RGBA(174, 208, 221, 1)
+        Height: =537
         Visible: =Sendforapprovaladmin
-        Width: =1063
-        X: =273
-        Y: =176
+        Width: =1033
+        X: =303
+        Y: =196
         ZIndex: =7
 
         Label37_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(0, 81, 100, 1)
             FontWeight: =FontWeight.Bold
-            Height: =77
+            Height: =106
             Size: =20
             Text: ="Confirm Submission"
-            Width: =412
+            Width: =1059
             X: =4
             Y: =18
             ZIndex: =1
@@ -1970,7 +1972,7 @@
                 UpdateContext({Sendforapprovaladmin:false}); Notify("The study is send for approval successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
-            X: =832
+            X: =781
             Y: =462
             ZIndex: =4
 
@@ -1981,18 +1983,19 @@
                 =UpdateContext({Sendforapprovaladmin:false})
             Text: ="Cancel"
             Width: =210
-            X: =519
+            X: =541
             Y: =462
             ZIndex: =5
 
         TextInput3_1 As text:
             Default: =""
-            Height: =235
+            Height: =173
             HintText: ="Add Comments (Optional)"
+            HoverFill: =RGBA(255, 255, 255, 1)
             Size: =18
-            Width: =725
-            X: =44
-            Y: =181
+            Width: =1005
+            X: =24
+            Y: =215
             ZIndex: =6
 
     RejectPopup_1 As groupContainer.manualLayoutContainer:
