@@ -3315,7 +3315,7 @@
                 Arrow2_24 As arrow.backArrow:
                     Height: =30
                     OnSelect: |-
-                        =UpdateContext({ShowActionpage:false});
+                        =UpdateContext({Showrejectpage:false});
                     Width: =30
                     ZIndex: =1
 
@@ -3454,6 +3454,10 @@
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
+
+                Label39 As label:
+                    Text: ="Rejected Initiatives"
+                    ZIndex: =1
 
             Container27_159 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
