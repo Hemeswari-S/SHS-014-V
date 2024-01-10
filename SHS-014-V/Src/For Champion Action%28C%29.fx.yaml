@@ -1019,6 +1019,7 @@
                     Checkbox2_1 As checkbox:
                         Default: =Checkbox2.Value
                         LayoutMinWidth: =50
+                        OnCheck: =Collect(ValueofId,ThisItem.ID)
                         Text: =""
                         Width: =50
                         ZIndex: =1
@@ -3238,14 +3239,9 @@
         Button5 As button:
             Height: =57
             OnSelect: |-
-                =
+                =ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,TextInput3.Text);
+                UpdateContext({SendforApproval:false}); Notify("The study is send for admin review successfully",NotificationType.Success);
                 Clear(ValueofId);
-                ForAll(
-                    Filter(Gallery_study_3.AllItems,Checkbox2_1.Value=true),
-                    Collect(ValueofId,ThisRecord.ID)
-                );
-                ApprovalFlowforChampionPage.Run(JSON(ValueofId),Gallery_study_2.Selected.ID,TextInput3.Text);
-                UpdateContext({SendforApproval:false}); Notify("The study is send for admin review successfully",NotificationType.Success)
             Text: ="Confirm"
             Width: =210
             X: =832
