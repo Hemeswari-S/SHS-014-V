@@ -3455,13 +3455,6 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                Label28_9 As label:
-                    FontWeight: =FontWeight.Bold
-                    PaddingLeft: =20
-                    Text: =Gallery_study_2.Selected.'Study Name'
-                    Width: =Parent.Width
-                    ZIndex: =1
-
             Container27_159 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
                 FillPortions: =0
@@ -3487,22 +3480,6 @@
                         Y: =21
                         ZIndex: =3
 
-                        Button1_56 As button:
-                            DisabledFill: =Self.Fill
-                            Fill: =RGBA(5, 89, 8, 1)
-                            HoverFill: =Self.Fill
-                            OnSelect: |-
-                                =UpdateContext({CeateInitiative:true});NewForm(Form3);
-                            PressedColor: =Color.White
-                            PressedFill: =Self.Fill
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Text: ="Create Initiative"
-                            Width: =Parent.Width
-                            ZIndex: =1
-
                 Container25_83 As groupContainer.manualLayoutContainer:
                     DropShadow: =DropShadow.None
                     LayoutMinHeight: =80
@@ -3516,23 +3493,6 @@
                         Width: =Parent.Width
                         Y: =21
                         ZIndex: =3
-
-                        Button1_57 As button:
-                            DisabledFill: =Self.Fill
-                            Fill: =RGBA(5, 89, 8, 1)
-                            HoverFill: =Self.Fill
-                            OnSelect: |+
-                                =UpdateContext({SendforApproval:true});
-                                
-                            PressedColor: =Color.White
-                            PressedFill: =Self.Fill
-                            RadiusBottomLeft: =0
-                            RadiusBottomRight: =0
-                            RadiusTopLeft: =0
-                            RadiusTopRight: =0
-                            Text: ="Send For Approval"
-                            Width: =Parent.Width
-                            ZIndex: =1
 
         Header_question_21 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -3758,7 +3718,7 @@
 
             Gallery_study_13 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List','PerfYear'=VarCurrentYear.Value,Progress="Rejected")
+                Items: =Filter('Initiative List',PerfYear=VarCurrentYear.Value,Progress="Rejected")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -3948,29 +3908,6 @@
                         LayoutMode: =LayoutMode.Auto
                         Width: =Parent.Width
                         ZIndex: =9
-
-                        Icon10_1 As icon.Edit:
-                            AlignInContainer: =AlignInContainer.Center
-                            Color: =RGBA(71, 158, 245, 1)
-                            FillPortions: =1
-                            Height: =30
-                            Icon: =Icon.Edit
-                            LayoutMinHeight: =30
-                            LayoutMinWidth: =20
-                            OnSelect: |-
-                                =UpdateContext({EditInitiative:true})
-                            ZIndex: =1
-
-                        Icon15_1 As icon.Trash:
-                            AlignInContainer: =AlignInContainer.Center
-                            Color: =RGBA(255, 0, 0, 1)
-                            FillPortions: =1
-                            Height: =30
-                            Icon: =Icon.Trash
-                            LayoutMinWidth: =20
-                            OnSelect: |-
-                                =UpdateContext({DeleteInitiative:true})
-                            ZIndex: =2
 
                         Icon16_22 As icon.DocumentwithContent:
                             AlignInContainer: =AlignInContainer.Center
