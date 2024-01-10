@@ -1965,7 +1965,7 @@
                         Collect(ValueofId,ThisRecord.ID)
                     );
                     ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_7.Selected.ID,TextInput3_3.Text);
-                    UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success)
+                    UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is send for approval successfully",NotificationType.Success)
                 Text: ="Confirm"
                 Width: =150
                 X: =626
