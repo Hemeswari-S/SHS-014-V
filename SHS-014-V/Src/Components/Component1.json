@@ -74,7 +74,14 @@
                   "BorderStyle",
                   "FocusedBorderColor",
                   "DisplayMode",
-                  "X",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "",
+                    "InvariantPropertyName": "X",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   "Y",
                   "Width",
                   "Height",
@@ -167,13 +174,13 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "44",
+                    "InvariantScript": "60",
                     "Property": "Width",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "48",
+                    "InvariantScript": "60",
                     "Property": "Height",
                     "RuleProviderType": "Unknown"
                   },
@@ -286,10 +293,24 @@
                   "Italic",
                   "Underline",
                   "Strikethrough",
-                  "PaddingTop",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "",
+                    "InvariantPropertyName": "PaddingTop",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   "PaddingRight",
                   "PaddingBottom",
-                  "PaddingLeft",
+                  {
+                    "AFDDataSourceName": "",
+                    "AutoRuleBindingEnabled": false,
+                    "AutoRuleBindingString": "",
+                    "InvariantPropertyName": "PaddingLeft",
+                    "IsLockable": false,
+                    "NameMapSourceSchema": "?"
+                  },
                   {
                     "AFDDataSourceName": "",
                     "AutoRuleBindingEnabled": false,
@@ -431,7 +452,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "FontWeight.Semibold",
+                    "InvariantScript": "FontWeight.Bold",
                     "Property": "FontWeight",
                     "RuleProviderType": "Unknown"
                   },
@@ -449,7 +470,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "40",
+                    "InvariantScript": "45",
                     "Property": "X",
                     "RuleProviderType": "Unknown"
                   },
@@ -461,13 +482,13 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "39",
+                    "InvariantScript": "38",
                     "Property": "Width",
                     "RuleProviderType": "Unknown"
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "48",
+                    "InvariantScript": "60",
                     "Property": "Height",
                     "RuleProviderType": "Unknown"
                   },
@@ -503,7 +524,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "15",
+                    "InvariantScript": "20",
                     "Property": "Size",
                     "RuleProviderType": "Unknown"
                   },
@@ -545,7 +566,7 @@
                   },
                   {
                     "Category": "Design",
-                    "InvariantScript": "5",
+                    "InvariantScript": "7",
                     "Property": "PaddingLeft",
                     "RuleProviderType": "Unknown"
                   },
@@ -4491,7 +4512,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638404905555335557",
+    "LastModifiedTimestamp": "638404906981738778",
     "Name": "Component1",
     "Rules": [
       {
@@ -4701,7 +4722,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638404905555335557",
+  "LastModifiedTimestamp": "638404906981738778",
   "Name": "415e1786c3c94354acf26afaf63ccb82",
   "OverridableProperties": {},
   "Version": "638327128456687156"
