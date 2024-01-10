@@ -350,7 +350,7 @@ Component1 As CanvasComponent:
             ZIndex: =7
 
             Circle1_7 As circle:
-                Fill: =RGBA(40, 134, 222, 1)
+                Fill: =ThisItem.color
                 Height: =48
                 OnSelect: =
                 Width: =44
@@ -365,7 +365,7 @@ Component1 As CanvasComponent:
                 OnSelect: =Set(ShowMenuadmin, !ShowMenuadmin)
                 Size: =15
                 Text: =ThisItem.Title
-                Width: =60
+                Width: =39
                 X: =40
                 Y: =32
                 ZIndex: =2
