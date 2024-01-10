@@ -160,13 +160,21 @@
 
                         CrntYrDrpDn As dropdown:
                             AllowEmptySelection: =true
+                            ChevronBackground: =RGBA(255, 255, 255, 1)
+                            ChevronFill: =RGBA(0, 0, 0, 1)
+                            ChevronHoverBackground: =//ColorFade(RGBA(56, 96, 178, 1), -20%)
+                            ChevronHoverFill: =//RGBA(255, 255, 255, 1)
                             FillPortions: =1
+                            HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
+                            HoverColor: =//RGBA(0, 0, 0, 0)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             Items: ='HACT Config'
                             OnChange: |-
                                 =UpdateContext({VarCrntYear:CrntYrDrpDn.SelectedText})
                             PressedColor: =RGBA(0, 0, 0, 1)
+                            PressedFill: =RGBA(255, 255, 255, 1)
                             Reset: =true
+                            SelectionFill: =RGBA(255, 255, 255, 1)
                             ZIndex: =2
 
                         Label36_8 As label:
@@ -305,6 +313,7 @@
                         CrntQtrDrpDn As dropdown:
                             AllowEmptySelection: =true
                             FillPortions: =1
+                            HoverFill: =RGBA(255, 255, 255, 1)
                             Items: =["Q1","Q2","Q3","Q4"]
                             OnChange: |-
                                 =UpdateContext({VarCrntQrtr:CrntQtrDrpDn.SelectedText})
