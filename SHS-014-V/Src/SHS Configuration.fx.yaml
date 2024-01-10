@@ -160,11 +160,13 @@
 
                         CrntYrDrpDn As dropdown:
                             AllowEmptySelection: =true
+                            BorderColor: =RGBA(40, 134, 222, 1)
                             ChevronBackground: =RGBA(255, 255, 255, 1)
                             ChevronFill: =RGBA(0, 0, 0, 1)
                             ChevronHoverBackground: =//ColorFade(RGBA(56, 96, 178, 1), -20%)
                             ChevronHoverFill: =//RGBA(255, 255, 255, 1)
                             FillPortions: =1
+                            FocusedBorderThickness: =2
                             HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
                             HoverColor: =//RGBA(0, 0, 0, 0)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -312,11 +314,18 @@
 
                         CrntQtrDrpDn As dropdown:
                             AllowEmptySelection: =true
+                            BorderColor: =RGBA(40, 134, 222, 1)
+                            ChevronBackground: =Color.White
+                            ChevronFill: =Color.Black
+                            ChevronHoverBackground: =Color.White
+                            ChevronHoverFill: =Color.Black
                             FillPortions: =1
+                            FocusedBorderThickness: =2
                             HoverFill: =RGBA(255, 255, 255, 1)
                             Items: =["Q1","Q2","Q3","Q4"]
                             OnChange: |-
                                 =UpdateContext({VarCrntQrtr:CrntQtrDrpDn.SelectedText})
+                            PressedFill: =RGBA(255, 255, 255, 1)
                             ZIndex: =2
 
                         Label36_13 As label:
@@ -451,12 +460,14 @@
                             ZIndex: =1
 
                         Newyear As text:
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderThickness: =1
+                            BorderColor: =RGBA(40, 134, 222, 1)
                             Default: =""
                             FillPortions: =1
+                            FocusedBorderThickness: |
+                                =2
                             HintText: ="Enter New Performance Year "
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
+                            HoverColor: =RGBA(0, 0, 0, 0)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             ZIndex: =6
 
@@ -561,10 +572,10 @@
                             ZIndex: =1
 
                         MailTxt As text:
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderThickness: =1
+                            BorderColor: =RGBA(40, 134, 222, 1)
                             Default: =""
                             FillPortions: =1
+                            FocusedBorderThickness: =2
                             HintText: |-
                                 ="Eg: test@dewa.gov.ae"
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
