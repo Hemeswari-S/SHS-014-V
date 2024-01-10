@@ -356,7 +356,7 @@
                 DelayItemLoading: =true
                 Items: |-
                     =Filter(
-                        'Divisions With Study',
+                        'Divisions With Study','Perf Year'=VarCurrentYear.Value,
                         Title = "approver1",
                         StartsWith(
                             'Study Name',
@@ -512,6 +512,7 @@
             Height: =80
             Size: =17
             Text: ="No Matching Items Found"
+            Width: =250
             ZIndex: =2
 
     Actionpage_2 As groupContainer.verticalAutoLayoutContainer:

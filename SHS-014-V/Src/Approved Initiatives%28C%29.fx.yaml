@@ -131,20 +131,7 @@
                             DisabledFill: =Self.Fill
                             Fill: =RGBA(5, 89, 8, 1)
                             HoverFill: =Self.Fill
-                            OnSelect: |+
-                                =ForAll(
-                                    Gallery9_1.AllItems As Data,
-                                    Collect(
-                                        CSVData,
-                                        {
-                                            SegmentCode:Data.'Segment Code',
-                                            SegmentName:Data.'Segment Name'
-                                        }
-                                    )
-                                );
-                                Download(Exportflow.Run(JSON(CSVData),"Segment Name").file_link);
-                                Clear(CSVData);
-                                
+                            OnSelect: =
                             PaddingLeft: =35
                             PressedColor: =Color.White
                             PressedFill: =Self.Fill
@@ -160,20 +147,7 @@
                             Color: =RGBA(255, 255, 255, 1)
                             Height: =40
                             Icon: =Icon.Export
-                            OnSelect: |+
-                                =ForAll(
-                                    Gallery9_1.AllItems As Data,
-                                    Collect(
-                                        CSVData,
-                                        {
-                                            SegmentCode:Data.'Segment Code',
-                                            SegmentName:Data.'Segment Name'
-                                        }
-                                    )
-                                );
-                                Download(Exportflow.Run(JSON(CSVData),"Segment Name").file_link);
-                                Clear(CSVData);
-                                
+                            OnSelect: =
                             Width: =32
                             X: =14
                             ZIndex: =2
@@ -206,4 +180,628 @@
             Size: =17
             Text: ="No Matching Items Found"
             ZIndex: =2
+
+    Actionpage_7 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =Color.White
+        Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width-'compApprovedInitiatives(C)'.VarMenuWidth
+        X: ='compApprovedInitiatives(C)'.VarMenuWidth
+        Y: ='compApprovedInitiatives(C)'.ComHeaderHeight
+        ZIndex: =10
+
+        "'Button&heading_41' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =60
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Container26_59 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                Arrow2_27 As arrow.backArrow:
+                    Height: =30
+                    OnSelect: |-
+                        =UpdateContext({ShowActionpage:false})
+                    Width: =30
+                    ZIndex: =1
+
+            Container27_208 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                Height: =Parent.Height
+                LayoutGap: =10
+                LayoutMinHeight: =60
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+                Container25_94 As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    LayoutMinHeight: =80
+                    LayoutMinWidth: =255
+                    ZIndex: =1
+
+                    Icon27_9 As icon.Reload:
+                        Color: =RGBA(45, 128, 40, 1)
+                        Height: =32
+                        Icon: =Icon.Reload
+                        OnSelect: =Refresh('Initiative List')
+                        Width: =36
+                        X: =273
+                        Y: =18
+                        ZIndex: =1
+
+                Container25_95 As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
+                    LayoutMinHeight: =80
+                    LayoutMinWidth: =100
+                    Width: =150
+                    ZIndex: =2
+
+                    Icon29_30 As icon.AddDocument:
+                        Color: =RGBA(255, 255, 255, 1)
+                        Height: =40
+                        Icon: =Icon.AddDocument
+                        Width: =38
+                        X: =14
+                        Y: =21
+                        ZIndex: =2
+
+                    Container6_59 As groupContainer.manualLayoutContainer:
+                        DropShadow: =DropShadow.None
+                        Height: =40
+                        Width: =136
+                        X: =14
+                        Y: =21
+                        ZIndex: =3
+
+                        Button1_67 As button:
+                            DisabledFill: =Self.Fill
+                            Fill: =RGBA(5, 89, 8, 1)
+                            HoverFill: =Self.Fill
+                            OnSelect: |-
+                                =//ForAll(Gallery_study_17.AllItems As Data,Collect(CSVData,{Initiative:Data.'Initiative Name',Study:Data.Study,FActors:Data.Factor,SubFactor:Data.SubFactors,PerformanceYear:Data.PerfYear,SatrtDAte:Data.StartDate,EndDate:Data.'End Date',Progress:Data.Progress}));Download(Exportflow.Run(JSON(CSVData),"Initiatives").file_link);Clear(CSVData);
+                            PaddingLeft: =35
+                            PressedColor: =Color.White
+                            PressedFill: =Self.Fill
+                            RadiusBottomLeft: =0
+                            RadiusBottomRight: =0
+                            RadiusTopLeft: =0
+                            RadiusTopRight: =0
+                            Text: ="Export"
+                            Width: =130
+                            ZIndex: =1
+
+                        Icon16_37 As icon.Add:
+                            Color: =RGBA(255, 255, 255, 1)
+                            Height: =40
+                            Icon: =Icon.Export
+                            OnSelect: |+
+                                =ForAll(
+                                    Gallery_study_17.AllItems As Data,
+                                    Collect(
+                                        CSVData,
+                                        {
+                                          Initiative:Data.'Initiative Name',
+                                          Study:Data.Study,
+                                          FActors:Data.Factor,
+                                          SubFactor:Data.SubFactors,
+                                          PerformanceYear:Data.PerfYear,
+                                          SatrtDAte:Data.StartDate,
+                                          EndDate:Data.'End Date',
+                                          Progress:Data.Progress
+                                        }
+                                    )
+                                );
+                                Download(Exportflow.Run(JSON(CSVData),"Initiatives").file_link);
+                                Clear(CSVData);
+                                
+                            Width: =32
+                            X: =14
+                            ZIndex: =2
+
+        "'Button&heading_42' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            Height: =60
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =2
+
+            Container26_60 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =1
+
+                Label28_13 As label:
+                    FontWeight: =FontWeight.Bold
+                    PaddingLeft: =20
+                    Text: =""
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+            Container27_209 As groupContainer.horizontalAutoLayoutContainer:
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                Height: =Parent.Height
+                LayoutGap: =10
+                LayoutMinHeight: =80
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                ZIndex: =2
+
+                Container25_96 As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    Height: =Parent.Height
+                    LayoutMinHeight: =80
+                    LayoutMinWidth: =100
+                    Width: =150
+                    ZIndex: =2
+
+                    Container6_60 As groupContainer.manualLayoutContainer:
+                        DropShadow: =DropShadow.None
+                        Height: =40
+                        Width: =Parent.Width
+                        Y: =21
+                        ZIndex: =3
+
+                Container25_97 As groupContainer.manualLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    LayoutMinHeight: =80
+                    LayoutMinWidth: =100
+                    Width: =150
+                    ZIndex: =3
+
+                    Container6_61 As groupContainer.manualLayoutContainer:
+                        DropShadow: =DropShadow.None
+                        Height: =40
+                        Width: =Parent.Width
+                        Y: =21
+                        ZIndex: =3
+
+        Header_question_28 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            BorderThickness: =1
+            FillPortions: =0
+            Height: =80
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutJustifyContent: =LayoutJustifyContent.Center
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =4
+
+            Container27_210 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =50
+                ZIndex: =1
+
+                Checkbox2_18 As checkbox:
+                    FillPortions: =1
+                    LayoutMinWidth: =50
+                    Text: =""
+                    ZIndex: =1
+
+            Container28_64 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =2
+
+                factorname_54 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="Initiative"
+                    ZIndex: =1
+
+            Container28_65 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =3
+
+                factorname_55 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="Study"
+                    Width: =220
+                    ZIndex: =1
+
+            Container27_211 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =4
+
+                factorcode_143 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="Factor"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_212 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =5
+
+                factorcode_144 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="SubFactor"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_213 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =120
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =6
+
+                factorcode_145 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =120
+                    Size: =15
+                    Text: ="StartDate"
+                    Width: =190
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_214 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =7
+
+                factorcode_146 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="EndDate"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_215 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =8
+
+                factorcode_147 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="Progress"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+            Container27_216 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =Parent.Height
+                LayoutAlignItems: =LayoutAlignItems.Stretch
+                LayoutJustifyContent: =LayoutJustifyContent.Center
+                LayoutMinHeight: =80
+                LayoutMinWidth: =100
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
+                ZIndex: =9
+
+                factorcode_148 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Bold
+                    LayoutMinWidth: =100
+                    Size: =15
+                    Text: ="Action"
+                    Width: =220
+                    Y: =130
+                    ZIndex: =1
+
+        Container30_23 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.Width
+            ZIndex: =5
+
+            Gallery_study_17 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Items: =Filter('Initiative List',Progress="Approved")
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                ShowNavigation: =true
+                ShowScrollbar: =false
+                TemplateSize: |
+                    =60
+                Width: =Parent.Width
+                ZIndex: =1
+
+                Header_question_29 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.None
+                    Height: =60
+                    LayoutAlignItems: =LayoutAlignItems.Stretch
+                    LayoutJustifyContent: =LayoutJustifyContent.Center
+                    LayoutMode: =LayoutMode.Auto
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                    Checkbox2_19 As checkbox:
+                        Default: =Checkbox2_18.Value
+                        LayoutMinWidth: =50
+                        Text: =""
+                        Width: =50
+                        ZIndex: =1
+
+                    Container28_66 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =2
+
+                        factorname_56 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =130
+                            Size: =15
+                            Text: =ThisItem.'Initiative Name'
+                            ZIndex: =1
+
+                    Container28_67 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =3
+
+                        factorname_57 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: =ThisItem.Study
+                            Width: =220
+                            ZIndex: =1
+
+                    Container27_217 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =4
+
+                        factorcode_149 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: =ThisItem.Factor.Value
+                            Width: =220
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_218 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =5
+
+                        factorcode_150 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: =ThisItem.SubFactors.Value
+                            Width: =220
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_219 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =6
+
+                        factorcode_151 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: =ThisItem.StartDate
+                            Width: =190
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_220 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =7
+
+                        factorcode_152 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: =ThisItem.'End Date'
+                            Width: =220
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_221 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =8
+
+                        factorcode_153 As label:
+                            Align: =Align.Center
+                            FillPortions: =1
+                            LayoutMinWidth: =120
+                            Size: =15
+                            Text: =ThisItem.Progress
+                            Width: =220
+                            Y: =130
+                            ZIndex: =1
+
+                    Container27_222 As groupContainer.horizontalAutoLayoutContainer:
+                        AlignInContainer: =AlignInContainer.SetByContainer
+                        DropShadow: =DropShadow.None
+                        Height: =Parent.Height
+                        LayoutAlignItems: =LayoutAlignItems.Stretch
+                        LayoutJustifyContent: =LayoutJustifyContent.Center
+                        LayoutMinHeight: =80
+                        LayoutMinWidth: =120
+                        LayoutMode: =LayoutMode.Auto
+                        Width: =Parent.Width
+                        ZIndex: =9
+
+                        Icon16_38 As icon.DocumentwithContent:
+                            AlignInContainer: =AlignInContainer.Center
+                            FillPortions: =1
+                            Height: =30
+                            Icon: =Icon.DocumentWithContent
+                            LayoutMinWidth: =20
+                            OnSelect: |-
+                                =UpdateContext({DisplayInitiative:true})
+                            ZIndex: =3
 
