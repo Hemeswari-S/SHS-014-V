@@ -18,6 +18,7 @@
             OnSelect: |-
                 =UpdateContext({Showrejectpage:true})
             Text: ="See all Rejected initiatives"
+            Width: =200
             ZIndex: =1
 
         "'Button&heading_11' As groupContainer.verticalAutoLayoutContainer":
