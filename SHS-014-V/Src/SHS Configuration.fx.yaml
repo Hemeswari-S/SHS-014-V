@@ -69,7 +69,7 @@
 
                     Label31 As label:
                         Color: =RGBA(255, 255, 255, 1)
-                        Fill: =RGBA(40, 134, 222, 1)
+                        Fill: =RGBA(40, 222, 195, 1)
                         Font: =Font.Georgia
                         FontWeight: =FontWeight.Bold
                         PaddingLeft: =10
@@ -191,7 +191,7 @@
                             ZIndex: =3
 
                         Button17 As button:
-                            Fill: =RGBA(235, 9, 9, 1)
+                            Fill: =RGBA(5, 163, 145, 1)
                             HoverFill: =Self.Fill
                             OnSelect: |-
                                 =If(
@@ -341,7 +341,7 @@
                             ZIndex: =3
 
                         Button17_1 As button:
-                            Fill: =RGBA(235, 9, 9, 1)
+                            Fill: =RGBA(5, 163, 145, 1)
                             HoverFill: =Self.Fill
                             OnSelect: |-
                                 =If(
@@ -485,7 +485,7 @@
                             ZIndex: =7
 
                         Button17_2 As button:
-                            Fill: =RGBA(235, 9, 9, 1)
+                            Fill: =RGBA(5, 163, 145, 1)
                             HoverFill: =Self.Fill
                             OnSelect: |
                                 =Set(VarNewYear,Newyear.Text);
@@ -597,7 +597,7 @@
                             ZIndex: =7
 
                         Button17_3 As button:
-                            Fill: =RGBA(235, 9, 9, 1)
+                            Fill: =RGBA(5, 163, 145, 1)
                             HoverFill: =Self.Fill
                             OnSelect: |-
                                 =If(
@@ -691,7 +691,8 @@
                     ZIndex: =2
 
                     Label31_1 As label:
-                        Fill: =RGBA(214, 221, 224, 1)
+                        Fill: =RGBA(24, 194, 237, 1)
+                        Font: =Font.Georgia
                         FontWeight: =FontWeight.Bold
                         PaddingLeft: =10
                         Size: =16
@@ -700,6 +701,7 @@
                         ZIndex: =1
 
                     Label36_4 As label:
+                        Font: =Font.Georgia
                         FontWeight: =FontWeight.Semibold
                         Height: =30
                         Text: |-
@@ -746,11 +748,12 @@
                         ZIndex: =4
 
                         Label36_25 As label:
+                            Font: =Font.Georgia
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =20
                             Text: ="Current Year"
-                            Width: =135
+                            Width: =145
                             ZIndex: =1
 
                         Label36_26 As label:
@@ -799,11 +802,12 @@
                         ZIndex: =6
 
                         Label36_27 As label:
+                            Font: =Font.Georgia
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =20
                             Text: ="Current Quarter"
-                            Width: =165
+                            Width: =175
                             ZIndex: =1
 
                         Label36_28 As label:
