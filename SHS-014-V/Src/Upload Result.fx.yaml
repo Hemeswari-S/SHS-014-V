@@ -518,6 +518,8 @@
                             )
                         )
                     )
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
                 Text: ="Import"
                 Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
@@ -563,9 +565,12 @@
                     =
                 ZIndex: =2
 
-            Button8_2 As button:
+            Button8_6 As button:
                 AlignInContainer: =AlignInContainer.Center
-                Fill: =RGBA(58, 214, 131, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(9, 232, 206, 1)
+                HoverColor: =RGBA(255, 0, 0, 1)
+                HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -580,13 +585,13 @@
                         ),
                         Set(
                             Data,
-                            'Copyof-ImportAndRead2nd'.Run(
+                            ImportAndRead.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_2.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_2.Attachments).Value,
-                                        name: First(DataCardValue82_2.Attachments).Name
+                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
+                                        name: First(DataCardValue82_1.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
@@ -603,10 +608,12 @@
                             )
                         )
                     )
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
                 Text: ="Import"
-                Visible: =If(IsBlank(First(DataCardValue82_2.Attachments).Name),false,true)
+                Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
-                ZIndex: =3
+                ZIndex: =4
 
         Container2_8 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
@@ -650,9 +657,12 @@
                     =
                 ZIndex: =2
 
-            Button8_3 As button:
+            Button8_2 As button:
                 AlignInContainer: =AlignInContainer.Center
-                Fill: =RGBA(58, 214, 131, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(9, 232, 206, 1)
+                HoverColor: =RGBA(255, 0, 0, 1)
+                HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -667,13 +677,13 @@
                         ),
                         Set(
                             Data,
-                            'Copyof-ImportAndRead3rd'.Run(
+                            ImportAndRead.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_3.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_3.Attachments).Value,
-                                        name: First(DataCardValue82_3.Attachments).Name
+                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
+                                        name: First(DataCardValue82_1.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
@@ -690,10 +700,12 @@
                             )
                         )
                     )
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
                 Text: ="Import"
-                Visible: =If(IsBlank(First(DataCardValue82_3.Attachments).Name),false,true)
+                Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
-                ZIndex: =3
+                ZIndex: =4
 
         Container2_9 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
@@ -736,9 +748,12 @@
                     =
                 ZIndex: =2
 
-            Button8_4 As button:
+            Button8_3 As button:
                 AlignInContainer: =AlignInContainer.Center
-                Fill: =RGBA(58, 214, 131, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(9, 232, 206, 1)
+                HoverColor: =RGBA(255, 0, 0, 1)
+                HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
                     =If(
                         Not(
@@ -753,13 +768,13 @@
                         ),
                         Set(
                             Data,
-                            'Copyof-ImportAndRead4th'.Run(
+                            ImportAndRead.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_4.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_4.Attachments).Value,
-                                        name: First(DataCardValue82_4.Attachments).Name
+                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
+                                        name: First(DataCardValue82_1.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
@@ -776,10 +791,12 @@
                             )
                         )
                     )
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
                 Text: ="Import"
-                Visible: =If(IsBlank(First(DataCardValue82_4.Attachments).Name),false,true)
+                Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
-                ZIndex: =3
+                ZIndex: =4
 
         Container2_10 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
@@ -822,14 +839,17 @@
                     =
                 ZIndex: =2
 
-            Button8_5 As button:
+            Button8_4 As button:
                 AlignInContainer: =AlignInContainer.Center
-                Fill: =RGBA(58, 214, 131, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(9, 232, 206, 1)
+                HoverColor: =RGBA(255, 0, 0, 1)
+                HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
                     =If(
                         Not(
                             EndsWith(
-                                First(DataCardValue82_5.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 ".xlsx"
                             )
                         ),
@@ -839,13 +859,13 @@
                         ),
                         Set(
                             Data,
-                            'Copyof-ImportAndRead5th'.Run(
+                            ImportAndRead.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_5.Attachments).Name,
+                                First(DataCardValue82_1.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_5.Attachments).Value,
-                                        name: First(DataCardValue82_5.Attachments).Name
+                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
+                                        name: First(DataCardValue82_1.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
@@ -862,10 +882,12 @@
                             )
                         )
                     )
+                PressedColor: =Self.Color
+                PressedFill: =Self.Fill
                 Text: ="Import"
-                Visible: =If(IsBlank(First(DataCardValue82_5.Attachments).Name),false,true)
+                Visible: =If(IsBlank(First(DataCardValue82_1.Attachments).Name),false,true)
                 Width: =150
-                ZIndex: =3
+                ZIndex: =4
 
     Container16 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
