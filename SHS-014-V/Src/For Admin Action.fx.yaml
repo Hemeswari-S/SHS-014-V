@@ -1925,7 +1925,7 @@
             Fill: =RGBA(255, 255, 255, 1)
             Height: =389
             Visible: =Sendforapprovaladmin
-            Width: =Parent.Width-500
+            Width: =672
             X: =222
             Y: =99
             ZIndex: =1
