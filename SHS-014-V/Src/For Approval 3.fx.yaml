@@ -1993,7 +1993,7 @@
                     );
                     UpdateContext({Sendforapproval: false});
                     Notify(
-                        "The initiative is approved P successfully",
+                        "The initiative is approved  successfully",
                         NotificationType.Success
                     );
                 Text: ="Confirm"
