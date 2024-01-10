@@ -18,7 +18,7 @@
             OnSelect: |-
                 =UpdateContext({Showrejectpage:true})
             Text: ="See all Rejected initiatives"
-            Width: =200
+            Width: =260
             ZIndex: =1
 
         "'Button&heading_11' As groupContainer.verticalAutoLayoutContainer":
@@ -1003,7 +1003,7 @@
 
             Gallery_study_3 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',(DivisionId=Gallery_study_2.Selected.DivisionIdFromList&&Study=Gallery_study_2.Selected.'Study Name'&&Progress="Rejected"))
+                Items: =Filter('Initiative List',DivisionId=Gallery_study_2.Selected.DivisionIdFromList&&Study=Gallery_study_2.Selected.'Study Name')
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -3315,7 +3315,7 @@
                 Arrow2_24 As arrow.backArrow:
                     Height: =30
                     OnSelect: |-
-                        =UpdateContext({ShowActionpage:false})
+                        =UpdateContext({ShowActionpage:false});
                     Width: =30
                     ZIndex: =1
 
@@ -3758,7 +3758,7 @@
 
             Gallery_study_13 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',(DivisionId=Gallery_study_2.Selected.DivisionIdFromList&&Study=Gallery_study_2.Selected.'Study Name'&&Progress="Rejected"))
+                Items: =Filter('Initiative List',Progress="Rejected")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
