@@ -365,7 +365,7 @@
                 DelayItemLoading: =true
                 Items: |-
                     =Filter(
-                        'Divisions With Study',
+                        'Divisions With Study','Perf Year'=VarCurrentYear.Value,Title="Champion",
                         Title = "Created",
                         StartsWith(
                             'Study Name',
