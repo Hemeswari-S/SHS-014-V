@@ -15,7 +15,9 @@
 
         Button7 As button:
             AlignInContainer: =AlignInContainer.End
-            Text: ="Button"
+            OnSelect: |-
+                =UpdateContext({Showrejectpage:true})
+            Text: ="Reject page"
             ZIndex: =1
 
         "'Button&heading_11' As groupContainer.verticalAutoLayoutContainer":
