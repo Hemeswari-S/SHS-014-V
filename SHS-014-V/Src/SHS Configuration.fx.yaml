@@ -70,6 +70,7 @@
                     Label31 As label:
                         Color: =RGBA(255, 255, 255, 1)
                         Fill: =RGBA(40, 134, 222, 1)
+                        Font: =Font.Georgia
                         FontWeight: =FontWeight.Bold
                         PaddingLeft: =10
                         Size: =16
@@ -78,6 +79,7 @@
                         ZIndex: =1
 
                     Label36 As label:
+                        Font: =Font.Georgia
                         FontWeight: =FontWeight.Semibold
                         Height: =30
                         Text: |-
@@ -124,11 +126,12 @@
                         ZIndex: =4
 
                         Label36_5 As label:
+                            Font: =Font.Georgia
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =20
                             Text: ="Current Year"
-                            Width: =135
+                            Width: =145
                             ZIndex: =1
 
                         Label36_6 As label:
@@ -278,11 +281,12 @@
                         ZIndex: =7
 
                         Label36_10 As label:
+                            Font: =Font.Georgia
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =20
                             Text: ="Current Quarter"
-                            Width: =165
+                            Width: =185
                             ZIndex: =1
 
                         Label36_11 As label:
@@ -425,11 +429,12 @@
                         ZIndex: =10
 
                         Label36_15 As label:
+                            Font: =Font.Georgia
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =20
                             Text: ="New Perforance Year"
-                            Width: =205
+                            Width: =225
                             ZIndex: =1
 
                         Label36_16 As label:
@@ -537,11 +542,12 @@
                         ZIndex: =13
 
                         Label36_20 As label:
+                            Font: =Font.Georgia
                             FontWeight: =FontWeight.Semibold
                             Height: =30
                             PaddingLeft: =20
                             Text: ="Trigger Mail"
-                            Width: =128
+                            Width: =148
                             ZIndex: =1
 
                         Label36_21 As label:
