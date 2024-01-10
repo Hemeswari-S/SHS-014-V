@@ -1873,7 +1873,7 @@
 
         Button1_1 As button:
             OnSelect: |-
-                =UpdateContext({CeateInitiative:false})
+                =UpdateContext({CeateInitiative:false});NewForm(Form3);
             Text: ="Cancel"
             X: =546
             Y: =630
