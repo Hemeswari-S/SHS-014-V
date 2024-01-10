@@ -391,7 +391,7 @@
 
             Gallery_study_7 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Divisions With Study',Title="SendByChampion",StartsWith('Study Name',search_study.Text)||StartsWith('Division Name',search_study.Text))
+                Items: =Filter('Divisions With Study','Perf Year'=VarCurrentYear.Value,Title="SendByChampion",StartsWith('Study Name',search_study.Text)||StartsWith('Division Name',search_study.Text))
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
