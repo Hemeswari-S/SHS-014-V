@@ -1925,7 +1925,7 @@
             Fill: =RGBA(255, 255, 255, 1)
             Height: =389
             Visible: =Sendforapprovaladmin
-            Width: =Parent.Width-500
+            Width: =672
             X: =222
             Y: =99
             ZIndex: =1
@@ -1957,7 +1957,6 @@
                 ZIndex: =3
 
             Button5_16 As button:
-                DisplayMode: =If(TextInput3_3.Text="",DisplayMode.Disabled,DisplayMode.Edit)
                 OnSelect: |-
                     =
                     Clear(ValueofId);
@@ -1965,8 +1964,8 @@
                         Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
                         Collect(ValueofId,ThisRecord.ID)
                     );
-                    ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_3.Selected.ID,TextInput3_3.Text);
-                    UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success)
+                    ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_7.Selected.ID,TextInput3_3.Text);
+                    UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is send for approval successfully",NotificationType.Success)
                 Text: ="Confirm"
                 Width: =150
                 X: =626
