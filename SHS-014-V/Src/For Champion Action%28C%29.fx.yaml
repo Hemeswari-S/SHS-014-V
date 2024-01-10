@@ -366,7 +366,7 @@
                 Items: |-
                     =Filter(
                         'Divisions With Study',
-                        Title = "Created",
+                        Title = "Created",'Perf Year'=VarCurrentYear.Value,
                         StartsWith(
                             'Study Name',
                             search_study.Text
