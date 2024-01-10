@@ -17,7 +17,7 @@
             AlignInContainer: =AlignInContainer.End
             OnSelect: |-
                 =UpdateContext({Showrejectpage:true})
-            Text: ="Reject page"
+            Text: ="See all Rejected initiatives"
             ZIndex: =1
 
         "'Button&heading_11' As groupContainer.verticalAutoLayoutContainer":
