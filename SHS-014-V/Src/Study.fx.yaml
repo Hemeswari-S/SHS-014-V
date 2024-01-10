@@ -1168,6 +1168,7 @@ Study As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =2
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
@@ -1242,6 +1243,7 @@ Study As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =2
                             HintText: =""
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
@@ -1312,9 +1314,11 @@ Study As screen:
 
                         DataCardValue52 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            ChevronBackground: =RGBA(132, 40, 38, 1)
+                            ChevronBackground: =Color.White
                             ChevronDisabledFill: =RGBA(132, 40, 38, 1)
-                            ChevronHoverFill: =RGBA(255, 255, 0, 1)
+                            ChevronFill: =Color.Black
+                            ChevronHoverBackground: =Color.White
+                            ChevronHoverFill: =Color.Black
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1385,10 +1389,12 @@ Study As screen:
 
                         DataCardValue55 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            ChevronBackground: =RGBA(132, 40, 38, 1)
+                            ChevronBackground: =Color.White
                             ChevronDisabledBackground: =RGBA(132, 40, 38, 1)
                             ChevronDisabledFill: =RGBA(132, 40, 38, 1)
-                            ChevronHoverFill: =RGBA(132, 40, 38, 1)
+                            ChevronFill: =Color.Black
+                            ChevronHoverBackground: =Color.White
+                            ChevronHoverFill: =Color.Black
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode
@@ -1458,8 +1464,11 @@ Study As screen:
 
                         DataCardValue60 As combobox:
                             BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                            ChevronBackground: =RGBA(132, 40, 38, 1)
+                            ChevronBackground: =Color.White
                             ChevronDisabledFill: =RGBA(132, 40, 38, 1)
+                            ChevronFill: =Color.Black
+                            ChevronHoverBackground: =Color.White
+                            ChevronHoverFill: =Color.Black
                             DefaultSelectedItems: =Parent.Default
                             DisplayFields: =["Value"]
                             DisplayMode: =Parent.DisplayMode

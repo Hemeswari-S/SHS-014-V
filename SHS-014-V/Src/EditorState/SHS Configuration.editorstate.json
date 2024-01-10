@@ -8214,7 +8214,14 @@
         "ChevronDisabledBackground",
         "SelectionFill",
         "Color",
-        "HoverColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "HoverColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -20297,7 +20304,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "RGBA(0, 0, 0, 1)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "HoverColor",
           "IsLockable": false,
           "NameMapSourceSchema": "?"

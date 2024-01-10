@@ -171,7 +171,6 @@
                             FillPortions: =1
                             FocusedBorderThickness: =2
                             HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
-                            HoverColor: =//RGBA(0, 0, 0, 0)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             Items: ='HACT Config'
                             OnChange: |-
@@ -472,7 +471,6 @@
                                 =2
                             HintText: ="Enter New Performance Year "
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
-                            HoverColor: =RGBA(0, 0, 0, 0)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             ZIndex: =6
 

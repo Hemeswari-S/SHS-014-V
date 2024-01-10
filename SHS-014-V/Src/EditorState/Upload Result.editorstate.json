@@ -1320,15 +1320,43 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledColor",
         "PressedColor",
-        "HoverColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "HoverColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisplayMode",
-        "Fill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledFill",
         "PressedFill",
-        "HoverFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ColorFade(RGBA(56, 96, 178, 1), -20%)",
+          "InvariantPropertyName": "HoverFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Font",
         "FontWeight",
         "Align",
@@ -1717,7 +1745,7 @@
       "MetaDataIDKey": "",
       "Name": "Button8_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2020,7 +2048,7 @@
       "MetaDataIDKey": "",
       "Name": "Button8_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2323,7 +2351,7 @@
       "MetaDataIDKey": "",
       "Name": "Button8_4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2626,7 +2654,7 @@
       "MetaDataIDKey": "",
       "Name": "Button8_5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8598,7 +8626,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -8688,7 +8716,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Parent.Width - 60",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Width",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -8771,7 +8799,7 @@
       "MetaDataIDKey": "",
       "Name": "DataCardValue82_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9077,7 +9105,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -9535,7 +9563,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -9993,7 +10021,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -10451,7 +10479,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "BorderColor",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -14342,7 +14370,7 @@
       "MetaDataIDKey": "",
       "Name": "Label13",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14650,7 +14678,7 @@
       "MetaDataIDKey": "",
       "Name": "Label13_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14958,7 +14986,7 @@
       "MetaDataIDKey": "",
       "Name": "Label13_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15266,7 +15294,7 @@
       "MetaDataIDKey": "",
       "Name": "Label13_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15574,7 +15602,7 @@
       "MetaDataIDKey": "",
       "Name": "Label13_4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
