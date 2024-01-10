@@ -425,10 +425,15 @@
             ZIndex: =1
 
             Button8 As button:
+                Fill: =RGBA(23, 2, 186, 1)
                 OnSelect: |-
                     =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});UpdateContext({Reset:true})
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Text: ="Send For Action"
-                Width: =300
+                Width: =250
                 ZIndex: =1
 
         Container2_6 As groupContainer.horizontalAutoLayoutContainer:
@@ -944,6 +949,7 @@
             Label8 As label:
                 Align: =Align.Center
                 FontWeight: =FontWeight.Bold
+                Height: =60
                 Size: =15
                 Text: ="Results Send For Champion Review Successfully"
                 Width: =300
