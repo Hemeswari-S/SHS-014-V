@@ -66,6 +66,8 @@ Study As screen:
                         BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
+                        FocusedBorderThickness: |
+                            =2
                         HintText: ="Search"
                         HoverBorderColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(255, 255, 255, 1)

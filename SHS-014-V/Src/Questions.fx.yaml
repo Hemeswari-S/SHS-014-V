@@ -15,13 +15,6 @@ Questions As screen:
         Y: =compQuestions.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_4 As arrow.backArrow:
-            AlignInContainer: =AlignInContainer.Start
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_5' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
@@ -53,11 +46,13 @@ Questions As screen:
 
             Container27_14 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutGap: =10
                 LayoutMinHeight: =80
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                Width: =550
                 ZIndex: =2
 
                 Container25_12 As groupContainer.manualLayoutContainer:
@@ -71,6 +66,7 @@ Questions As screen:
                         BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
+                        FocusedBorderThickness: =2
                         HintText: ="Search"
                         HoverBorderColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(255, 255, 255, 1)
@@ -938,7 +934,7 @@ Questions As screen:
 
     notfound_question As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =537
+        Height: =569
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -946,7 +942,7 @@ Questions As screen:
         Visible: =If(Gallery_questions.AllItemsCount=0,true,false)
         Width: =App.Width-compQuestions.VarMenuWidth
         X: =compQuestions.VarMenuWidth
-        Y: =231
+        Y: =199
         ZIndex: =5
 
         Image8_4 As image:
@@ -962,6 +958,7 @@ Questions As screen:
             Height: =80
             Size: =17
             Text: ="No Matching Items Found"
+            Width: =350
             ZIndex: =2
 
     "'Add Popup_Questions' As groupContainer.verticalAutoLayoutContainer":
