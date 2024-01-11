@@ -13,12 +13,6 @@
         Y: =CompAllstudy.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_8 As arrow.backArrow:
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_9' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
@@ -69,6 +63,7 @@
 
                     TextInput1_3 As text:
                         BorderColor: =RGBA(0, 0, 0, 1)
+                        BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
                         HintText: ="Search"
@@ -101,7 +96,7 @@
                         Visible: =If(IsBlank(TextInput1_3.Text),false,true)
                         Width: =30
                         X: =230
-                        Y: =27
+                        Y: =25
                         ZIndex: =3
 
                 Container25_31 As groupContainer.manualLayoutContainer:

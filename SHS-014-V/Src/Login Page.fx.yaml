@@ -38,6 +38,7 @@
         ZIndex: =5
 
     Label1 As label:
+        Font: =Font.Georgia
         FontWeight: =FontWeight.Semibold
         Height: =78
         Size: =20
@@ -48,6 +49,7 @@
         ZIndex: =6
 
     Label2 As label:
+        Font: =Font.Georgia
         FontWeight: =FontWeight.Bold
         Height: =118
         LineHeight: =1.5
@@ -59,8 +61,9 @@
         ZIndex: =7
 
     Label3 As label:
+        Font: =Font.Georgia
         Height: =354
-        LineHeight: =1.9
+        LineHeight: =2.3
         Size: =15
         Text: ="Stakeholder Perception reports are structured to provide recommendations on areas that highly and positively impact stakeholder relationship with DEWA. These reports work as an input for developing internal and external initiatives to assure positive trend of stakeholder experience for happier future relations. Therefore managing the improvement initiatives is considered very critical to assure future happiness impact on the overall relation between DEWA and its stakeholders. For this purpose, Q&SHM developed a new tool – Happiness Achievement Commitment Tool (HACT)."
         Width: =764
@@ -78,8 +81,9 @@
 
     Button11 As button:
         Fill: =RGBA(23, 145, 131, 1)
+        Font: =Font.Georgia
         Height: =48
-        HoverFill: =Color.HotPink
+        HoverFill: =RGBA(250, 0, 125, 1)
         OnSelect: |+
             =If(
                 !IsBlank(
