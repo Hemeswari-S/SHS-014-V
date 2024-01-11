@@ -427,12 +427,14 @@
             Button8 As button:
                 Fill: =RGBA(23, 2, 186, 1)
                 OnSelect: |-
-                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});UpdateContext({Reset:true})
+                    =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});UpdateContext({Reset:true});
+                    UpdateContext({btnvisible1:false});UpdateContext({btnvisible2:false})
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Text: ="Send For Action"
+                Visible: =If(btnvisible1=true&&btnvisible2=true&&btnvisible3=true&&btnvisible4=true&&btnvisible5=true,true,false)
                 Width: =250
                 ZIndex: =1
 
