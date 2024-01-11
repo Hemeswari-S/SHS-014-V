@@ -535,6 +535,47 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'For Approval(Approver2)'.Actionpage_3.Container30_16.Gallery_study_10.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver2)'.Actionpage_3.Container30_16.Gallery_study_10.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 44,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "For Approval(Approver2)",
+                "type": "'For Approval(Approver2)'.Actionpage_3.Container30_16.Gallery_study_10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Number",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Container30_12.Gallery_study_6.Items"
                 }
               ],

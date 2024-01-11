@@ -991,7 +991,12 @@
 
             Gallery_study_10 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Items: =Filter('Initiative List',Progress="Approval2")
+                Items: |-
+                    =Filter(
+                        'Initiative List',
+                        PerfYear = VarCurrentYear.Value,
+                        Progress = "Approval2"
+                    )
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -2051,7 +2056,7 @@
                     TextInput1_10.Text,
                     JSON(ValueofId)
                 );
-                UpdateContext({Sendforapproval: false});
+                UpdateContext({rejectpopup: false});
                 Notify(
                     "The study is send for Approval Process successfully",
                     NotificationType.Success
