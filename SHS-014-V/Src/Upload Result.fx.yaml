@@ -616,7 +616,7 @@
                             )
                         )
                     );
-                    UpdateContext({btnvisible2:true}
+                    UpdateContext({btnvisible2:true})
                 PressedColor: =Self.Color
                 PressedFill: =Self.Fill
                 Text: ="Import"
@@ -709,7 +709,8 @@
                                 NotificationType.Warning
                             )
                         )
-                    )
+                    );
+                    UpdateContext({btnvisible3:true})
                 PressedColor: =Self.Color
                 PressedFill: =Self.Fill
                 Text: ="Import"
