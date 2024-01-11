@@ -499,7 +499,9 @@
         Height: =App.Height-'compForChampionAction(C)'.ComHeaderHeight
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Visible: =ShowActionpage
+        Visible: |-
+            =//ShowActionpage
+            true
         Width: =App.Width-compForAdminAction.VarMenuWidth
         X: =compForAdminAction.VarMenuWidth
         Y: ='compForChampionAction(C)'.ComHeaderHeight
@@ -778,6 +780,11 @@
                 Checkbox2_2 As checkbox:
                     FillPortions: =1
                     LayoutMinWidth: =50
+                    OnCheck: |-
+                        =ForAll(
+                            Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
+                            Collect(ValueofId,ThisRecord.ID)
+                        );
                     Text: =""
                     ZIndex: =1
 
@@ -997,6 +1004,8 @@
                     Checkbox2_3 As checkbox:
                         Default: =Checkbox2_2.Value
                         LayoutMinWidth: =50
+                        OnCheck: =Collect(ValueofId,ThisItem.ID)
+                        Reset: =Resetcheckbox
                         Text: =""
                         Width: =50
                         ZIndex: =1
@@ -1958,14 +1967,21 @@
 
             Button5_16 As button:
                 OnSelect: |-
-                    =
-                    Clear(ValueofId);
-                    ForAll(
-                        Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                        Collect(ValueofId,ThisRecord.ID)
+                    =UpdateContext({Resetcheckbox: false});
+                    ApprovalFlowforAdminAction.Run(
+                        JSON(ValueofId),
+                        "Approval1",
+                        Gallery_study_7.Selected.ID,
+                        TextInput3_3.Text
                     );
-                    ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Approval1",Gallery_study_7.Selected.ID,TextInput3_3.Text);
-                    UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is send for approval successfully",NotificationType.Success)
+                    UpdateContext({Sendforapprovaladmin: false});
+                    Notify(
+                        "The Initiative is send for approval successfully",
+                        NotificationType.Success
+                    );
+                    Clear(ValueofId);
+                    UpdateContext({Resetcheckbox: true});
+                    Reset(Checkbox2_2)
                 Text: ="Confirm"
                 Width: =150
                 X: =626
@@ -2004,14 +2020,14 @@
             DisplayMode: =If(TextInput3_3.Text="",DisplayMode.Disabled,DisplayMode.Edit)
             Height: =57
             OnSelect: |-
-                =
-                Clear(ValueofId);
-                ForAll(
-                    Filter(Gallery_study_4.AllItems,Checkbox2_3.Value=true),
-                    Collect(ValueofId,ThisRecord.ID)
-                );
+                =UpdateContext({Resetcheckbox: false});
                 ApprovalFlowforAdminAction.Run(JSON(ValueofId),"Rejected",Gallery_study_3.Selected.ID,TextInput3_3.Text);
-                UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success)
+                UpdateContext({Sendforapprovaladmin:false}); Notify("The Initiative is Rejected successfully",NotificationType.Success);
+                
+                
+                Clear(ValueofId);
+                UpdateContext({Resetcheckbox: true});
+                Reset(Checkbox2_2)
             Text: ="Confirm"
             Width: =210
             X: =832

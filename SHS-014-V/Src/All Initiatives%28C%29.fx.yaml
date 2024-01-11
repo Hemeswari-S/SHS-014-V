@@ -12,12 +12,6 @@
         Y: ='compAllInitiatives(C)'.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_9 As arrow.backArrow:
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_10' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
@@ -189,25 +183,6 @@
             LayoutMode: =LayoutMode.Auto
             Width: =Parent.Width
             ZIndex: =4
-
-            Container27_223 As groupContainer.horizontalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                DropShadow: =DropShadow.None
-                FillPortions: =0
-                Height: =Parent.Height
-                LayoutAlignItems: =LayoutAlignItems.Stretch
-                LayoutJustifyContent: =LayoutJustifyContent.Center
-                LayoutMinHeight: =80
-                LayoutMinWidth: =100
-                LayoutMode: =LayoutMode.Auto
-                Width: =50
-                ZIndex: =1
-
-                Checkbox2_20 As checkbox:
-                    FillPortions: =1
-                    LayoutMinWidth: =50
-                    Text: =""
-                    ZIndex: =1
 
             Container28_68 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
@@ -421,13 +396,6 @@
                     LayoutMode: =LayoutMode.Auto
                     Width: =Parent.Width
                     ZIndex: =1
-
-                    Checkbox2_21 As checkbox:
-                        Default: =Checkbox2_20.Value
-                        LayoutMinWidth: =50
-                        Text: =""
-                        Width: =50
-                        ZIndex: =1
 
                     Container28_70 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer

@@ -15,7 +15,7 @@
 
         Arrow2_11 As arrow.backArrow:
             Height: =30
-            OnSelect: =Navigate(Administration)
+            OnSelect: =
             Width: =30
             ZIndex: =1
 
@@ -211,13 +211,6 @@
                 LayoutMode: =LayoutMode.Auto
                 ZIndex: =1
 
-                Arrow2_27 As arrow.backArrow:
-                    Height: =30
-                    OnSelect: |-
-                        =UpdateContext({ShowActionpage:false})
-                    Width: =30
-                    ZIndex: =1
-
             Container27_208 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
                 FillPortions: =0
@@ -235,13 +228,13 @@
                     ZIndex: =1
 
                     Icon27_9 As icon.Reload:
-                        Color: =RGBA(45, 128, 40, 1)
+                        Color: =RGBA(18, 88, 227, 1)
                         Height: =32
                         Icon: =Icon.Reload
                         OnSelect: =Refresh('Initiative List')
                         Width: =36
-                        X: =273
-                        Y: =18
+                        X: =304
+                        Y: =27
                         ZIndex: =1
 
                 Container25_95 As groupContainer.manualLayoutContainer:
@@ -314,71 +307,14 @@
                             X: =14
                             ZIndex: =2
 
-        "'Button&heading_42' As groupContainer.verticalAutoLayoutContainer":
-            AlignInContainer: =AlignInContainer.SetByContainer
+        Container55 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
             FillPortions: =0
-            Height: =60
+            Height: =40
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            Width: =Parent.Width
             ZIndex: =2
-
-            Container26_60 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.None
-                Height: =Parent.Height
-                LayoutAlignItems: =LayoutAlignItems.Center
-                LayoutMinHeight: =80
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                ZIndex: =1
-
-                Label28_13 As label:
-                    FontWeight: =FontWeight.Bold
-                    PaddingLeft: =20
-                    Text: =""
-                    Width: =Parent.Width
-                    ZIndex: =1
-
-            Container27_209 As groupContainer.horizontalAutoLayoutContainer:
-                DropShadow: =DropShadow.None
-                FillPortions: =0
-                Height: =Parent.Height
-                LayoutGap: =10
-                LayoutMinHeight: =80
-                LayoutMinWidth: =250
-                LayoutMode: =LayoutMode.Auto
-                ZIndex: =2
-
-                Container25_96 As groupContainer.manualLayoutContainer:
-                    DropShadow: =DropShadow.None
-                    Height: =Parent.Height
-                    LayoutMinHeight: =80
-                    LayoutMinWidth: =100
-                    Width: =150
-                    ZIndex: =2
-
-                    Container6_60 As groupContainer.manualLayoutContainer:
-                        DropShadow: =DropShadow.None
-                        Height: =40
-                        Width: =Parent.Width
-                        Y: =21
-                        ZIndex: =3
-
-                Container25_97 As groupContainer.manualLayoutContainer:
-                    DropShadow: =DropShadow.None
-                    LayoutMinHeight: =80
-                    LayoutMinWidth: =100
-                    Width: =150
-                    ZIndex: =3
-
-                    Container6_61 As groupContainer.manualLayoutContainer:
-                        DropShadow: =DropShadow.None
-                        Height: =40
-                        Width: =Parent.Width
-                        Y: =21
-                        ZIndex: =3
 
         Header_question_28 As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -391,26 +327,7 @@
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             Width: =Parent.Width
-            ZIndex: =4
-
-            Container27_210 As groupContainer.horizontalAutoLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                DropShadow: =DropShadow.None
-                FillPortions: =0
-                Height: =Parent.Height
-                LayoutAlignItems: =LayoutAlignItems.Stretch
-                LayoutJustifyContent: =LayoutJustifyContent.Center
-                LayoutMinHeight: =80
-                LayoutMinWidth: =100
-                LayoutMode: =LayoutMode.Auto
-                Width: =50
-                ZIndex: =1
-
-                Checkbox2_18 As checkbox:
-                    FillPortions: =1
-                    LayoutMinWidth: =50
-                    Text: =""
-                    ZIndex: =1
+            ZIndex: =3
 
             Container28_64 As groupContainer.horizontalAutoLayoutContainer:
                 AlignInContainer: =AlignInContainer.SetByContainer
@@ -600,7 +517,7 @@
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             Width: =Parent.Width
-            ZIndex: =5
+            ZIndex: =4
 
             Gallery_study_17 As gallery.galleryVertical:
                 DelayItemLoading: =true
@@ -624,13 +541,6 @@
                     LayoutMode: =LayoutMode.Auto
                     Width: =Parent.Width
                     ZIndex: =1
-
-                    Checkbox2_19 As checkbox:
-                        Default: =Checkbox2_18.Value
-                        LayoutMinWidth: =50
-                        Text: =""
-                        Width: =50
-                        ZIndex: =1
 
                     Container28_66 As groupContainer.horizontalAutoLayoutContainer:
                         AlignInContainer: =AlignInContainer.SetByContainer

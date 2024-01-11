@@ -13,12 +13,6 @@
         Y: =compSegmentMember.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_1 As arrow.backArrow:
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_2' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
@@ -68,6 +62,8 @@
                         BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
+                        FocusedBorderThickness: |
+                            =2
                         HintText: ="Search"
                         HoverBorderColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(255, 255, 255, 1)
@@ -97,7 +93,7 @@
                         OnSelect: =Set(search_name,"");Reset(search_SM)
                         Visible: =If(IsBlank(search_SM.Text),false,true)
                         Width: =28
-                        X: =202
+                        X: =215
                         Y: =27
                         ZIndex: =3
 
@@ -809,7 +805,7 @@
 
     Container14_1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =537
+        Height: =577
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -819,7 +815,7 @@
             =
             App.Width-compSegmentMember.VarMenuWidth
         X: =compSegmentMember.VarMenuWidth
-        Y: =231
+        Y: =191
         ZIndex: =5
 
         Image8_1 As image:

@@ -15,13 +15,6 @@ Study As screen:
         Y: =compStudy.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_6 As arrow.backArrow:
-            AlignInContainer: =AlignInContainer.Start
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_7' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
