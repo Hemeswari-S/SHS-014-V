@@ -766,7 +766,8 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =If(
+                    =UpdateContext({btnvisible4:fals});
+                    If(
                         Not(
                             EndsWith(
                                 First(DataCardValue82_4.Attachments).Name,
@@ -801,7 +802,8 @@
                                 NotificationType.Warning
                             )
                         )
-                    )
+                    );
+                    UpdateContext({btnvisible4:true})
                 PressedColor: =Self.Color
                 PressedFill: =Self.Fill
                 Text: ="Import"
