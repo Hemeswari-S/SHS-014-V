@@ -807,6 +807,8 @@ Segment As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: |
+                                =2
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
@@ -880,6 +882,8 @@ Segment As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: |
+                                =2
                             HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
                             PaddingLeft: =5

@@ -13,12 +13,6 @@ Factors As screen:
         Y: =compFactors.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_2 As arrow.backArrow:
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_3' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
@@ -50,11 +44,13 @@ Factors As screen:
 
             Container27_7 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutGap: =10
                 LayoutMinHeight: =80
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                Width: =550
                 ZIndex: =2
 
                 Container25_6 As groupContainer.manualLayoutContainer:
@@ -68,6 +64,8 @@ Factors As screen:
                         BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
+                        FocusedBorderThickness: |
+                            =2
                         HintText: ="Search"
                         HoverBorderColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(255, 255, 255, 1)
@@ -735,7 +733,7 @@ Factors As screen:
 
     Container14_2 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =537
+        Height: =577
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -743,7 +741,7 @@ Factors As screen:
         Visible: =If(Gallery_factor.AllItemsCount=0,true,false)
         Width: =App.Width-compFactors.VarMenuWidth
         X: =compFactors.VarMenuWidth
-        Y: =231
+        Y: =191
         ZIndex: =5
 
         Image8_2 As image:
