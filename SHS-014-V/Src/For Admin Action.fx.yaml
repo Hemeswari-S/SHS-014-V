@@ -2027,7 +2027,9 @@
                 
                 Clear(ValueofId);
                 UpdateContext({Resetcheckbox: true});
-                Reset(Checkbox2_2)
+                Reset(Checkbox2_2);
+                
+                UpdateContext({rejectpopup: false});
             Text: ="Confirm"
             Width: =210
             X: =832
