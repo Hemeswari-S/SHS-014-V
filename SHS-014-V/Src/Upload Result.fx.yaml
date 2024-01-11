@@ -682,13 +682,13 @@
                         ),
                         Set(
                             Data,
-                            ImportAndRead.Run(
+                            'Copyof-ImportAndRead3rd'.Run(
                                 Gallery_study_1.Selected.ID,
                                 First(DataCardValue82_3.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
-                                        name: First(DataCardValue82_1.Attachments).Name
+                                        contentBytes: First(DataCardValue82_3.Attachments).Value,
+                                        name: First(DataCardValue82_3.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
@@ -759,43 +759,7 @@
                 Fill: =RGBA(9, 232, 206, 1)
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
-                OnSelect: |-
-                    =If(
-                        Not(
-                            EndsWith(
-                                First(DataCardValue82_3.Attachments).Name,
-                                ".xlsx"
-                            )
-                        ),
-                        Notify(
-                            "Only xlsx files are allowed",
-                            NotificationType.Error
-                        ),
-                        Set(
-                            Data,
-                            'Copyof-ImportAndRead3rd'.Run(
-                                Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_3.Attachments).Name,
-                                {
-                                    file: {
-                                        contentBytes: First(DataCardValue82_3.Attachments).Value,
-                                        name: First(DataCardValue82_3.Attachments).Name
-                                    }
-                                }
-                            ).outputfornotification
-                        );
-                        If(
-                            Data = "True",
-                            Notify(
-                                "Imported",
-                                NotificationType.Success
-                            ),
-                            Notify(
-                                "Enter VAlid File",
-                                NotificationType.Warning
-                            )
-                        )
-                    )
+                OnSelect: =
                 PressedColor: =Self.Color
                 PressedFill: =Self.Fill
                 Text: ="Import"
