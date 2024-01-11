@@ -2051,7 +2051,7 @@
                     TextInput1_12.Text,
                     JSON(ValueofId)
                 );
-                UpdateContext({Sendforapproval: false});
+                UpdateContext({rejectpopup: false});
                 Notify(
                     "The study is send for Approval Process successfully",
                     NotificationType.Success
