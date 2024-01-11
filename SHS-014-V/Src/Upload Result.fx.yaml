@@ -763,7 +763,7 @@
                     =If(
                         Not(
                             EndsWith(
-                                First(DataCardValue82_4.Attachments).Name,
+                                First(DataCardValue82_3.Attachments).Name,
                                 ".xlsx"
                             )
                         ),
@@ -773,13 +773,13 @@
                         ),
                         Set(
                             Data,
-                            ImportAndRead.Run(
+                            'Copyof-ImportAndRead3rd'.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_4.Attachments).Name,
+                                First(DataCardValue82_3.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_4.Attachments).Value,
-                                        name: First(DataCardValue82_4.Attachments).Name
+                                        contentBytes: First(DataCardValue82_3.Attachments).Value,
+                                        name: First(DataCardValue82_3.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
