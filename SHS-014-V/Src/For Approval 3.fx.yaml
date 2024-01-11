@@ -356,7 +356,7 @@
                 DelayItemLoading: =true
                 Items: |-
                     =Filter(
-                        'Divisions With Study',
+                        'Divisions With Study','Perf Year'=VarCurrentYear.Value,
                         Title = "approver3",
                         StartsWith(
                             'Study Name',
