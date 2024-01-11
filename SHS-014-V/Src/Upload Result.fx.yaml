@@ -487,7 +487,7 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =UpdateContext({btnvisible1:false});
+                    =
                     If(
                         Not(
                             EndsWith(
@@ -579,7 +579,7 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =UpdateContext({btnvisible2:false});
+                    =
                     If(
                         Not(
                             EndsWith(
@@ -673,7 +673,7 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =UpdateContext({btnvisible3:false});
+                    =
                     If(
                         Not(
                             EndsWith(
@@ -766,7 +766,7 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =UpdateContext({btnvisible4:false});
+                    =
                     If(
                         Not(
                             EndsWith(
@@ -859,7 +859,7 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =UpdateContext({btnvisible5:false});
+                    =
                     If(
                         Not(
                             EndsWith(
