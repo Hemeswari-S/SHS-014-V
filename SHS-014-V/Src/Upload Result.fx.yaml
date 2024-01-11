@@ -579,7 +579,7 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =UpdateContext({btnvisible2:false})
+                    =UpdateContext({btnvisible2:false});
                     If(
                         Not(
                             EndsWith(
@@ -673,7 +673,8 @@
                 HoverColor: =RGBA(255, 0, 0, 1)
                 HoverFill: =RGBA(9, 232, 206, 1)
                 OnSelect: |-
-                    =If(
+                    =UpdateContext({btnvisible3:false});
+                    If(
                         Not(
                             EndsWith(
                                 First(DataCardValue82_3.Attachments).Name,
