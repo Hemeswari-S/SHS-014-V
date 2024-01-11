@@ -590,13 +590,13 @@
                         ),
                         Set(
                             Data,
-                            ImportAndRead.Run(
+                            'Copyof-ImportAndRead2nd'.Run(
                                 Gallery_study_1.Selected.ID,
-                                First(DataCardValue82_1.Attachments).Name,
+                                First(DataCardValue82_2.Attachments).Name,
                                 {
                                     file: {
-                                        contentBytes: First(DataCardValue82_1.Attachments).Value,
-                                        name: First(DataCardValue82_1.Attachments).Name
+                                        contentBytes: First(DataCardValue82_2.Attachments).Value,
+                                        name: First(DataCardValue82_2.Attachments).Name
                                     }
                                 }
                             ).outputfornotification
