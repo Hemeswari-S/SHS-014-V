@@ -13,12 +13,6 @@ Subfactors As screen:
         Y: =CompSubFactors.ComHeaderHeight
         ZIndex: =2
 
-        Arrow2_3 As arrow.backArrow:
-            Height: =30
-            OnSelect: =Navigate(Administration)
-            Width: =30
-            ZIndex: =1
-
         "'Button&heading_4' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
@@ -50,11 +44,13 @@ Subfactors As screen:
 
             Container27_9 As groupContainer.horizontalAutoLayoutContainer:
                 DropShadow: =DropShadow.None
+                FillPortions: =0
                 Height: =Parent.Height
                 LayoutGap: =10
                 LayoutMinHeight: =80
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                Width: =550
                 ZIndex: =2
 
                 Container25_9 As groupContainer.manualLayoutContainer:
@@ -68,6 +64,8 @@ Subfactors As screen:
                         BorderThickness: =1
                         Default: =""
                         DelayOutput: =true
+                        FocusedBorderThickness: |
+                            =2
                         HintText: ="Search"
                         HoverBorderColor: =RGBA(0, 0, 0, 1)
                         HoverFill: =RGBA(255, 255, 255, 1)
@@ -982,6 +980,7 @@ Subfactors As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =2
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
@@ -1013,6 +1012,7 @@ Subfactors As screen:
 
                         StarVisible61 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey61.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1054,6 +1054,7 @@ Subfactors As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =2
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
@@ -1085,6 +1086,7 @@ Subfactors As screen:
 
                         StarVisible62 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey62.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1126,6 +1128,7 @@ Subfactors As screen:
                             Default: =Parent.Default
                             DelayOutput: =true
                             DisplayMode: =Parent.DisplayMode
+                            FocusedBorderThickness: =2
                             HoverBorderColor: =RGBA(0, 0, 0, 1)
                             HoverFill: =RGBA(255, 255, 255, 1)
                             MaxLength: =Parent.MaxLength
@@ -1157,6 +1160,7 @@ Subfactors As screen:
 
                         StarVisible63 As label:
                             Align: =Align.Center
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =DataCardKey63.Height
                             Text: ="*"
                             Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
