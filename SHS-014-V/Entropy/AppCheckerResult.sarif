@@ -54,6 +54,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Navigation(C)'.Menu"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Navigation(C)'.Menu",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 230,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Menu",
+                "module": "Navigation(C)",
+                "type": "'Navigation(C)'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Approver 3'.Menu"
                 }
               ],
@@ -1152,6 +1192,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.Arrow2_9.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'All Initiatives(C)'.'Main-All Initiatives(C)'.Arrow2_9.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "All Initiatives(C)",
+                "type": "'All Initiatives(C)'.'Main-All Initiatives(C)'.Arrow2_9"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'All Initiatives'.'Main-All Initiatives'.Container30_12.Gallery_study_6.Items"
                 }
               ],
@@ -1193,6 +1273,86 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Approved Initiatives(C)",
+                "type": "'Approved Initiatives(C)'.'Main-Approved Initiatives'.Arrow2_11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Factors.'Main-Factors'.Arrow2_2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Factors.'Main-Factors'.Arrow2_2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Factors",
+                "type": "Factors.'Main-Factors'.Arrow2_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'For Admin Action'.'Main-For Admin Action'.Container30_13.Gallery_study_7.Items"
                 }
               ],
@@ -1228,6 +1388,86 @@
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Segment Member'.'Main-Segmentmember'.Arrow2_1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Segment Member'.'Main-Segmentmember'.Arrow2_1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Segment Member",
+                "type": "'Segment Member'.'Main-Segmentmember'.Arrow2_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 3'.'ForApprovel1-main_2'.Arrow2_14.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 3'.'ForApprovel1-main_2'.Arrow2_14.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Approval 3",
+                "type": "'For Approval 3'.'ForApprovel1-main_2'.Arrow2_14"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1310,6 +1550,86 @@
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval 4'.'ForApprovel1-main_3'.Arrow2_15.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval 4'.'ForApprovel1-main_3'.Arrow2_15.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Approval 4",
+                "type": "'For Approval 4'.'ForApprovel1-main_3'.Arrow2_15"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'ForApprovel1-main'.Arrow2_12.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver1)'.'ForApprovel1-main'.Arrow2_12.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Approval(Approver1)",
+                "type": "'For Approval(Approver1)'.'ForApprovel1-main'.Arrow2_12"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1719,6 +2039,206 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Inbox(C)'.'Navigation(C)_2'.Menu"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Inbox(C)'.'Navigation(C)_2'.Menu",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 230,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Menu",
+                "module": "Inbox(C)",
+                "type": "'Inbox(C)'.'Navigation(C)_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Segment.'Main-Segment'.Arrow2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Segment.'Main-Segment'.Arrow2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Segment",
+                "type": "Segment.'Main-Segment'.Arrow2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Options.'Main-Options'.Arrow2_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Options.'Main-Options'.Arrow2_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Options",
+                "type": "Options.'Main-Options'.Arrow2_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Questions.'Main-Questions'.Arrow2_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Questions.'Main-Questions'.Arrow2_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Questions",
+                "type": "Questions.'Main-Questions'.Arrow2_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'For Approval(Approver2)'.'ForApprovel1-main_1'.Arrow2_13.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'For Approval(Approver2)'.'ForApprovel1-main_1'.Arrow2_13.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "For Approval(Approver2)",
+                "type": "'For Approval(Approver2)'.'ForApprovel1-main_1'.Arrow2_13"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'For Approval(Approver2)'.'ForApprovel1-main_1'.Container30_15.Gallery_study_9.Items"
                 }
               ],
@@ -1795,6 +2315,126 @@
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Study.'Main-Study'.Arrow2_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Study.'Main-Study'.Arrow2_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Study",
+                "type": "Study.'Main-Study'.Arrow2_6"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Subfactors.'Main-SubFactors'.Arrow2_3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Subfactors.'Main-SubFactors'.Arrow2_3.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Subfactors",
+                "type": "Subfactors.'Main-SubFactors'.Arrow2_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Upload Result'.'Main-Study_1'.Arrow2_7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Upload Result'.'Main-Study_1'.Arrow2_7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Administration"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Upload Result",
+                "type": "'Upload Result'.'Main-Study_1'.Arrow2_7"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Administration"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -12984,66 +13624,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.Main.Arrow1_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Main.Arrow1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Division",
-                "type": "Division.Main.Arrow1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Division.Main.Arrow1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Division.Main.Arrow1_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Division",
-                "type": "Division.Main.Arrow1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
         },
         {
           "locations": [
