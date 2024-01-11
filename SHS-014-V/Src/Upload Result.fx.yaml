@@ -428,7 +428,7 @@
                 Fill: =RGBA(23, 2, 186, 1)
                 OnSelect: |-
                     =CreateDivisionFlow.Run(Gallery_study_1.Selected.ID);UpdateContext({PopupforAction:true});UpdateContext({ShowAction:false});UpdateContext({Reset:true});
-                    UpdateContext({btnvisible1:false});UpdateContext({btnvisible2:false})
+                    UpdateContext({btnvisible1:false});UpdateContext({btnvisible2:false});UpdateContext({btnvisible3:false});UpdateContext({btnvisible4:false});UpdateContext({btnvisible5:false})
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
