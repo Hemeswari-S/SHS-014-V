@@ -88,3 +88,20 @@ Screen1 As screen:
         Y: =600
         ZIndex: =2
 
+    Container25_80 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =84
+        Width: =68
+        X: =543
+        ZIndex: =3
+
+        Icon27_6 As icon.Reload:
+            Color: =RGBA(10, 29, 242, 1)
+            Height: =26
+            Icon: =Icon.Reload
+            OnSelect: =//Refresh('All Study')
+            Width: =25
+            X: =21
+            Y: =27
+            ZIndex: =1
+
